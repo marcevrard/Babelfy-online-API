@@ -17,7 +17,8 @@ public class ExampleFile {
 	public static void main(String[] args) throws Exception {
 		File file = new File("input/input.txt");
 		Scanner scanner = new Scanner(file);
-		String inputText = scanner.useDelimiter("\\Z").next();
+		scanner.useDelimiter("\\Z");  // \Z = end of the string anchor
+		String inputText = scanner.next();
 		scanner.close();
 
 		BabelfyConstraints constraints = new BabelfyConstraints();
@@ -36,7 +37,7 @@ public class ExampleFile {
 		// Create printer
 		File dir = new File("output");
 		dir.mkdir();
-		PrintWriter writer = new PrintWriter("output/output.txt", "UTF-8");
+		PrintWriter writer = new PrintWriter("output/output.tsv", "UTF-8");
 
 		// bfyAnnotations is the result of Babelfy.babelfy() call
 		for(SemanticAnnotation annotation:bfyAnnotations) {
