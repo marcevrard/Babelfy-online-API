@@ -2,8 +2,6 @@ import java.util.List;
 import java.io.File;
 import java.util.Scanner;
 import java.io.PrintWriter;
-// import java.io.InputStreamReader;
-// import java.io.FileInputStream;
 import it.uniroma1.lcl.babelfy.core.Babelfy;
 import it.uniroma1.lcl.babelfy.commons.BabelfyConstraints;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters;
@@ -15,7 +13,7 @@ import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation.Source;
 import it.uniroma1.lcl.babelfy.commons.annotation.TokenOffsetFragment;
 import it.uniroma1.lcl.jlt.util.Language;
 
-public class ExampleToken {
+public class ExampleFile {
 	public static void main(String[] args) throws Exception {
 		File file = new File("input/input.txt");
 		Scanner scanner = new Scanner(file);
@@ -56,29 +54,3 @@ public class ExampleToken {
 		writer.close();
 	}
 }
-
-// public class Example {
-// public static void main(String[] args) throws Exception {
-// Babelfy bfy = Babelfy.getInstance(AccessType.ONLINE);
-// BabelNet bn = BabelNet.getInstance();
-// String word = " ";
-// String inputText = "He has a passion for music";
-// Annotation annotations = bfy.babelfy(" ",
-// inputText,
-// BabelfyParameters.MatchingType.EXACT_MATCHING,
-// Language.EN);
-// System.out.println("inputText: " + inputText + "\nannotations:");
-// for (BabelSynsetAnchor annotation : annotations.getAnnotations()) {
-// word = annotation.getBabelSynset().getId();
-// System.out.println(annotation.getAnchorText() + "\t" + word + "\t" +
-// annotation.getBabelSynset());
-// // BabelSynset by = bn.getSynsetFromId(("bn:03083790n"));
-// for (BabelSense sense : bn.getSynsetFromId((word))) {
-// if (sense.getSource().toString().equals("WN"))
-// System.out.println("Sense: " + sense.getLemma() + "\tSource: " +
-// sense.getSource().toString());
-// }
-// }
-//
-// }
-// }
