@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ExampleToken",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "ExampleToken",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Example",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Echo",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Echo",
+            "args": "test1 test2"
+        },
+        {
+            "type": "java",
+            "name": "Library",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Library",
+            "projectName": "bfy_vscode",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}
