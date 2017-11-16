@@ -9,15 +9,12 @@ import java.util.Map;
 import java.util.HashMap;
 import it.uniroma1.lcl.babelfy.core.Babelfy;
 import it.uniroma1.lcl.babelfy.commons.BabelfyToken;
-import it.uniroma1.lcl.babelfy.commons.BabelfyConstraints;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.SemanticAnnotationResource;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.ScoredCandidates;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.MCS;
 import it.uniroma1.lcl.babelfy.commons.PosTag;
 import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation;
-import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation.Source;
-import it.uniroma1.lcl.babelfy.commons.annotation.TokenOffsetFragment;
 import it.uniroma1.lcl.jlt.util.Language;
 
 
@@ -25,22 +22,15 @@ public class ExampleToken {
 
 	public static void main(String[] args) throws Exception {
 
-		BabelfyConstraints constraints = new BabelfyConstraints();
-		SemanticAnnotation a = new SemanticAnnotation(new TokenOffsetFragment(0, 0), "bn:03083790n",
-				"http://dbpedia.org/resource/BabelNet", Source.OTHER);
-
-		constraints.addAnnotatedFragments(a);
-		BabelfyParameters bp = new BabelfyParameters();
-		bp.setAnnotationResource(SemanticAnnotationResource.BN);
-		bp.setMCS(MCS.ON_WITH_STOPWORDS);
-		bp.setScoredCandidates(ScoredCandidates.ALL);
-
+		// Get input data from file
 		Path currentPath = Paths.get(System.getProperty("user.dir"));
-		String fileName = "tokens_13.tsv";
+		String fileName = "tokens_1.tsv";
 		Path file = Paths.get(currentPath.toString(), "input", fileName);
 		Scanner scanner = new Scanner(file);
+
 		List<BabelfyToken> tokenizedInput = new ArrayList<>();
 
+		// Convert POS input to POS objects
 		Map<String, PosTag> posDic = new HashMap<String, PosTag>();
 		posDic.put("n", PosTag.NOUN);
 		posDic.put("v", PosTag.VERB);
@@ -48,6 +38,7 @@ public class ExampleToken {
 		posDic.put("r", PosTag.ADVERB);
 		posDic.put("x", PosTag.OTHER);
 
+		// Input tokens to Babelfy
 		while (scanner.hasNext()) {
 			String line = scanner.nextLine();
 			String[] lineParts = line.split("\\t");
@@ -59,13 +50,21 @@ public class ExampleToken {
 		}
 		scanner.close();
 
-		Babelfy bfy = new Babelfy(bp);
-		List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN, constraints);
+		// Setup Babelfy paramteres
+		BabelfyParameters bfyParams = new BabelfyParameters();
+		bfyParams.setAnnotationResource(SemanticAnnotationResource.BN);
+		bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
+		bfyParams.setScoredCandidates(ScoredCandidates.ALL);
+
+		// Launch Babelfy annotation
+		Babelfy bfy = new Babelfy(bfyParams);
+		List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN);
 
 		// Create printer
 		Path out_dir = Paths.get("output");
 		Files.createDirectories(out_dir);
-		Path out_file = Paths.get(currentPath.toString(), out_dir.toString(), fileName);
+		String out_fileName = "out_" + fileName;
+		Path out_file = Paths.get(currentPath.toString(), out_dir.toString(), out_fileName);
 		PrintWriter writer = new PrintWriter(out_file.toString(), "UTF-8");
 
 		// bfyAnnotations is the result of Babelfy.babelfy() call
