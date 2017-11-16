@@ -36,7 +36,7 @@ public class ExampleToken {
 		bp.setScoredCandidates(ScoredCandidates.ALL);
 
 		Path currentPath = Paths.get(System.getProperty("user.dir"));
-		String fileName = "input_toy.tsv";
+		String fileName = "tokens_13.tsv";
 		Path file = Paths.get(currentPath.toString(), "input", fileName);
 		Scanner scanner = new Scanner(file);
 		List<BabelfyToken> tokenizedInput = new ArrayList<>();
