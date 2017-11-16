@@ -34,6 +34,8 @@ public class ExampleFile {
 		List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(inputText, Language.EN, constraints);
 
 		// Create printer
+		File dir = new File("output");
+		dir.mkdir();
 		PrintWriter writer = new PrintWriter("output/output.txt", "UTF-8");
 
 		// bfyAnnotations is the result of Babelfy.babelfy() call
