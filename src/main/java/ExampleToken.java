@@ -36,7 +36,7 @@ public class ExampleToken {
 		bp.setScoredCandidates(ScoredCandidates.ALL);
 
 		Path currentPath = Paths.get(System.getProperty("user.dir"));
-		String fileName = "tokens_1.tsv";
+		String fileName = "input_toy.tsv";
 		Path file = Paths.get(currentPath.toString(), "input", fileName);
 		Scanner scanner = new Scanner(file);
 		List<BabelfyToken> tokenizedInput = new ArrayList<>();
@@ -72,6 +72,8 @@ public class ExampleToken {
 		for(SemanticAnnotation annotation:bfyAnnotations) {
 			// splitting the input text using the CharOffsetFragment start and end anchors
 			String output = annotation.getBabelSynsetID() + "\t"
+							+ annotation.getTokenOffsetFragment().getStart() + "\t"
+							+ annotation.getTokenOffsetFragment().getEnd() + "\t"
 							+ annotation.getSource() + "\t"
 							+ annotation.getDBpediaURL();
 			// System.out.println(output);
