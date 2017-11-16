@@ -45,3 +45,4 @@ config/my.babelfy.var.properties
 .gradle
 .project
 .settings/
+output/

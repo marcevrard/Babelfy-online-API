@@ -1,4 +1,5 @@
 import java.util.List;
+import java.io.PrintWriter;
 import it.uniroma1.lcl.babelfy.core.Babelfy;
 import it.uniroma1.lcl.babelfy.commons.BabelfyConstraints;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters;
@@ -26,16 +27,21 @@ public class ExampleToken {
 		Babelfy bfy = new Babelfy(bp);
 		List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(inputText, Language.EN, constraints);
 
+		// Create printer
+		PrintWriter writer = new PrintWriter("output/output.txt", "UTF-8");
+
 		// bfyAnnotations is the result of Babelfy.babelfy() call
 		for(SemanticAnnotation annotation:bfyAnnotations) {
 			// splitting the input text using the CharOffsetFragment start and end anchors
 			String frag = inputText.substring(annotation.getCharOffsetFragment().getStart(),
 					annotation.getCharOffsetFragment().getEnd() + 1);
-			System.out.println(frag + "\t" + annotation.getBabelSynsetID());
-			System.out.println("\t" + annotation.getBabelNetURL());
-			System.out.println("\t" + annotation.getDBpediaURL());
-			System.out.println("\t" + annotation.getSource());
+			String output = annotation.getBabelSynsetID() + "\t"
+							+ annotation.getSource() + "\t" + frag;
+			System.out.println(output);
+			// Print to file
+			writer.println(output);
 		}
+		writer.close();
 	}
 }
 
