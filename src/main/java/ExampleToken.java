@@ -1,5 +1,9 @@
 import java.util.List;
+import java.io.File;
+import java.util.Scanner;
 import java.io.PrintWriter;
+// import java.io.InputStreamReader;
+// import java.io.FileInputStream;
 import it.uniroma1.lcl.babelfy.core.Babelfy;
 import it.uniroma1.lcl.babelfy.commons.BabelfyConstraints;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters;
@@ -13,7 +17,11 @@ import it.uniroma1.lcl.jlt.util.Language;
 
 public class ExampleToken {
 	public static void main(String[] args) throws Exception {
-		String inputText = "Life is life";
+		File file = new File("input/input.txt");
+		Scanner scanner = new Scanner(file);
+		String inputText = scanner.useDelimiter("\\Z").next();
+		scanner.close();
+
 		BabelfyConstraints constraints = new BabelfyConstraints();
 		SemanticAnnotation a = new SemanticAnnotation(new TokenOffsetFragment(0, 0), "bn:03083790n",
 				"http://dbpedia.org/resource/BabelNet", Source.OTHER);
@@ -33,10 +41,14 @@ public class ExampleToken {
 		// bfyAnnotations is the result of Babelfy.babelfy() call
 		for(SemanticAnnotation annotation:bfyAnnotations) {
 			// splitting the input text using the CharOffsetFragment start and end anchors
-			String frag = inputText.substring(annotation.getCharOffsetFragment().getStart(),
-					annotation.getCharOffsetFragment().getEnd() + 1);
+			Integer offsetStart = annotation.getCharOffsetFragment().getStart();
+			Integer offsetEnd = annotation.getCharOffsetFragment().getEnd();
+			String frag = inputText.substring(offsetStart, offsetEnd + 1);
 			String output = annotation.getBabelSynsetID() + "\t"
-							+ annotation.getSource() + "\t" + frag;
+							+ offsetStart.toString() + "\t"
+							+ offsetEnd.toString() + "\t"
+							+ annotation.getSource() + "\t"
+							+ frag;
 			System.out.println(output);
 			// Print to file
 			writer.println(output);
