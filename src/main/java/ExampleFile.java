@@ -1,5 +1,7 @@
 import java.util.List;
-import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.Files;
 import java.util.Scanner;
 import java.io.PrintWriter;
 import it.uniroma1.lcl.babelfy.core.Babelfy;
@@ -15,7 +17,9 @@ import it.uniroma1.lcl.jlt.util.Language;
 
 public class ExampleFile {
 	public static void main(String[] args) throws Exception {
-		File file = new File("input/input.txt");
+		Path currentPath = Paths.get(System.getProperty("user.dir"));
+		String fileName = "se2013_doc1.txt";
+		Path file = Paths.get(currentPath.toString(), "input", fileName);
 		Scanner scanner = new Scanner(file);
 		scanner.useDelimiter("\\Z");  // \Z = end of the string anchor
 		String inputText = scanner.next();
@@ -35,9 +39,10 @@ public class ExampleFile {
 		List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(inputText, Language.EN, constraints);
 
 		// Create printer
-		File dir = new File("output");
-		dir.mkdir();
-		PrintWriter writer = new PrintWriter("output/output.tsv", "UTF-8");
+		Path out_dir = Paths.get("output");
+		Files.createDirectories(out_dir);
+		Path out_file = Paths.get(currentPath.toString(), out_dir.toString(), fileName);
+		PrintWriter writer = new PrintWriter(out_file.toString(), "UTF-8");
 
 		// bfyAnnotations is the result of Babelfy.babelfy() call
 		for(SemanticAnnotation annotation:bfyAnnotations) {
@@ -46,11 +51,13 @@ public class ExampleFile {
 			Integer offsetEnd = annotation.getCharOffsetFragment().getEnd();
 			String frag = inputText.substring(offsetStart, offsetEnd + 1);
 			String output = annotation.getBabelSynsetID() + "\t"
+							+ annotation.getTokenOffsetFragment().getStart() + "\t"
+							+ annotation.getTokenOffsetFragment().getEnd() + "\t"
 							+ offsetStart.toString() + "\t"
 							+ offsetEnd.toString() + "\t"
 							+ annotation.getSource() + "\t"
 							+ frag;
-			System.out.println(output);
+			// System.out.println(output);
 			// Print to file
 			writer.println(output);
 		}
