@@ -1,8 +1,10 @@
 import java.util.List;
 import java.util.ArrayList;
-import java.io.File;
-import java.util.Scanner;
 import java.io.PrintWriter;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.Files;
+import java.util.Scanner;
 import java.util.Map;
 import java.util.HashMap;
 import it.uniroma1.lcl.babelfy.core.Babelfy;
@@ -33,7 +35,9 @@ public class ExampleToken {
 		bp.setMCS(MCS.ON_WITH_STOPWORDS);
 		bp.setScoredCandidates(ScoredCandidates.ALL);
 
-		File file = new File("input/input_tokens.tsv");
+		Path currentPath = Paths.get(System.getProperty("user.dir"));
+		String fileName = "tokens_1.tsv";
+		Path file = Paths.get(currentPath.toString(), "input", fileName);
 		Scanner scanner = new Scanner(file);
 		List<BabelfyToken> tokenizedInput = new ArrayList<>();
 
@@ -42,6 +46,7 @@ public class ExampleToken {
 		posDic.put("v", PosTag.VERB);
 		posDic.put("j", PosTag.ADJECTIVE);
 		posDic.put("r", PosTag.ADVERB);
+		posDic.put("x", PosTag.OTHER);
 
 		while (scanner.hasNext()) {
 			String line = scanner.nextLine();
@@ -58,9 +63,10 @@ public class ExampleToken {
 		List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN, constraints);
 
 		// Create printer
-		File dir = new File("output");
-		dir.mkdir();
-		PrintWriter writer = new PrintWriter("output/output_tokens.tsv", "UTF-8");
+		Path out_dir = Paths.get("output");
+		Files.createDirectories(out_dir);
+		Path out_file = Paths.get(currentPath.toString(), out_dir.toString(), fileName);
+		PrintWriter writer = new PrintWriter(out_file.toString(), "UTF-8");
 
 		// bfyAnnotations is the result of Babelfy.babelfy() call
 		for(SemanticAnnotation annotation:bfyAnnotations) {
@@ -68,7 +74,7 @@ public class ExampleToken {
 			String output = annotation.getBabelSynsetID() + "\t"
 							+ annotation.getSource() + "\t"
 							+ annotation.getDBpediaURL();
-			System.out.println(output);
+			// System.out.println(output);
 			// Print to file
 			writer.println(output);
 		}
