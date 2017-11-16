@@ -28,14 +28,4 @@ dependencies {
 
     // Babelfy related (Add External JARs)
     compile fileTree(dir: 'lib', include: ['*.jar'])
-    // compile fileTree(dir: 'src/main/resources/config', include: ['*.properties'])
-    // runtime fileTree(dir: 'src/main/resources/config', include: ['*.properties'])
 }
-
-// sourceSets.main.resources { srcDirs = ["src/main/java"] };
-
-// processResources {
-//   from ('lib/config') {
-//     include '*.properties'
-//   }
-// }
