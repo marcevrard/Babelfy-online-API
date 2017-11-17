@@ -1,3 +1,4 @@
+Cheshire	x
 Appeal	x
 Will	x
 Point	x
@@ -5,7 +6,6 @@ to	x
 Twitter	x
 There	x
 were	v
-<eos>	x
 half a dozen	x
 of	x
 them	x
@@ -15,7 +15,7 @@ in	x
 the	x
 courtroom	n
 rows	n
-.	x
+<eos>	x
 Minute	n
 by	x
 minute	n
@@ -23,17 +23,15 @@ minute	n
 they	x
 sent	x
 out	x
-<eos>	x
 reports	n
 of	x
 gruesome	j
 testimony	n
 via	x
 Twitter	x
-.	x
+<eos>	x
 In	x
 the	x
-<eos>	x
 end	n
 ,	x
 the	x
@@ -67,9 +65,8 @@ that	x
 was	v
 set	x
 ablaze	r
-.	x
-On	x
 <eos>	x
+On	x
 Thursday	x
 ,	x
 the	x
@@ -115,9 +112,8 @@ for	x
 by	x
 the	x
 jury	n
-.	x
-But	x
 <eos>	x
+But	x
 lawyers	n
 for	x
 Mr.	x
@@ -141,7 +137,7 @@ the	x
 courts	n
 for	x
 years	n
-.	x
+<eos>	x
 One	x
 of	x
 the	x
@@ -151,7 +147,6 @@ is	v
 that	x
 the	x
 intense	j
-<eos>	x
 reporting	n
 on	x
 the	x
@@ -190,9 +185,8 @@ swayed	x
 by	x
 public	j
 passions	n
-.	x
-The	x
 <eos>	x
+The	x
 claim	n
 could	x
 force	x
@@ -211,7 +205,7 @@ requires	x
 new	j
 courtroom	n
 rules	n
-.	x
+<eos>	x
 ``	x
 As	x
 I	x
@@ -219,7 +213,6 @@ experienced	x
 it	x
 during	x
 this	x
-<eos>	x
 trial	n
 ,	x
 I	x
@@ -256,9 +249,8 @@ Hayes	x
 's	x
 chief	j
 defense lawyer	x
-.	x
-The	x
 <eos>	x
+The	x
 trial judge	x
 ,	x
 Jon	x
@@ -299,7 +291,7 @@ was	v
 driven	x
 by	x
 passion	n
-.	x
+<eos>	x
 But	x
 that	x
 is	v
@@ -308,14 +300,12 @@ likely	j
 to	x
 be	v
 the	x
-<eos>	x
 last word	x
 on	x
 the	x
 issue	n
-.	x
-For	x
 <eos>	x
+For	x
 decades	n
 ,	x
 appeals courts	x
@@ -334,12 +324,11 @@ a	x
 trial	n
 's	x
 fairness	n
-.	x
+<eos>	x
 In	x
 a	x
 landmark	j
 <number>	x
-<eos>	x
 ruling	n
 ,	x
 the	x
@@ -383,9 +372,8 @@ because	x
 of	x
 the	x
 news media	x
-.	x
-The	x
 <eos>	x
+The	x
 crime	n
 is	v
 believed	x
@@ -404,10 +392,9 @@ the	x
 movie	n
 ``	x
 The Fugitive	n
-.	x
+<eos>	x
 ''	x
 Some	x
-<eos>	x
 lawyers	n
 said	x
 appeals courts	x
@@ -448,13 +435,12 @@ Dr.	x
 Sheppard	x
 's	x
 case	n
-.	x
+<eos>	x
 ``	x
 There	x
 is	v
 a	x
 general	j
-<eos>	x
 reason	n
 for	x
 concern	n
@@ -490,7 +476,6 @@ it	x
 was	v
 arbitrarily	r
 enforced	x
-.	x
 <eos>	x
 Professor	x
 Donohue	x
@@ -514,9 +499,8 @@ might	x
 make	x
 trials	n
 fairer	j
-.	x
-The	x
 <eos>	x
+The	x
 Twitter	x
 issue	n
 is	v
@@ -542,9 +526,8 @@ years	n
 delaying	x
 an	x
 execution	n
-.	x
-The	x
 <eos>	x
+The	x
 defense lawyers	x
 also	r
 claim	x
@@ -580,11 +563,10 @@ crime-scene	n
 photographs	n
 during	x
 jury selection	n
-.	x
+<eos>	x
 Some	x
 of	x
 the	x
-<eos>	x
 jurors	n
 have	x
 said	x
@@ -614,9 +596,8 @@ and	x
 Michaela	x
 ,	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 defense lawyers	x
 say	x
 they	x
@@ -665,17 +646,15 @@ deliberate	x
 over	x
 a	x
 weekend	n
-.	x
-The	x
 <eos>	x
+The	x
 jurors	n
 were	v
 not	r
 sequestered	x
-.	x
+<eos>	x
 But	x
 their	x
-<eos>	x
 arguments	n
 about	x
 the	x
@@ -692,12 +671,11 @@ draw	x
 the	x
 most	j
 interest	n
-.	x
+<eos>	x
 They	x
 noted	x
 in	x
 a	x
-<eos>	x
 challenge	n
 to	x
 the	x
@@ -727,12 +705,11 @@ governor	n
 and	x
 the	x
 United States Senate	x
-.	x
+<eos>	x
 They	x
 argued	x
 that	x
 the	x
-<eos>	x
 news media	n
 continually	r
 fanned	x
@@ -743,11 +720,10 @@ emotion	n
 about	x
 the	x
 case	n
-.	x
+<eos>	x
 ``	x
 The	x
 daily	j
-<eos>	x
 crush	n
 of	x
 media	n
@@ -777,10 +753,9 @@ New Haven	x
 and	x
 maybe	r
 statewide	j
-.	x
+<eos>	x
 ''	x
 Their	x
-<eos>	x
 focus	n
 on	x
 the	x
@@ -788,9 +763,8 @@ Twitter	x
 coverage	n
 is	v
 controversial	j
-.	x
-In	x
 <eos>	x
+In	x
 interviews	n
 ,	x
 some	x
@@ -824,10 +798,9 @@ coverage	n
 of	x
 future	j
 trials	n
-.	x
+<eos>	x
 But	x
 some	x
-<eos>	x
 lawyers	n
 said	x
 appeals courts	x
@@ -846,20 +819,18 @@ adaptation	n
 by	x
 the	x
 courts	n
-.	x
+<eos>	x
 Mr.	x
 Hayes	x
 's	x
-<eos>	x
 lawyers	n
 are	v
 pressing	x
 that	x
 claim	n
-.	x
+<eos>	x
 In	x
 their	x
-<eos>	x
 filing	n
 ,	x
 they	x
@@ -893,10 +864,9 @@ new media	x
 required	x
 new	j
 rules	n
-.	x
+<eos>	x
 ``	x
 This	x
-<eos>	x
 case	n
 ,	x
 ''	x
@@ -911,5 +881,4 @@ of	x
 the	x
 <number>	j
 century	n
-.	x
-''	x
+<eos>	x

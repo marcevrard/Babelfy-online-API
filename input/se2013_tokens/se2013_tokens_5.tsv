@@ -1,10 +1,10 @@
+US	x
 banks	n
 repay	x
 state	n
 support	n
 The	x
 crisis-hit	n
-<eos>	x
 US	x
 major	j
 banks	n
@@ -15,9 +15,8 @@ from	x
 their	x
 state	n
 shackles	n
-.	x
-On	x
 <eos>	x
+On	x
 Wednesday	x
 Bank of America	x
 repaid	x
@@ -44,12 +43,11 @@ billion	x
 in	x
 one	x
 go	x
-.	x
+<eos>	x
 And	x
 ,	x
 according	x
 to	x
-<eos>	x
 reports	n
 from	x
 US	x
@@ -65,9 +63,8 @@ repay	x
 the	x
 state	n
 support	n
-.	x
-The	x
 <eos>	x
+The	x
 institutions	n
 thereby	r
 want	x
@@ -100,7 +97,6 @@ paying	x
 of	x
 high	j
 charges	n
-.	x
 <eos>	x
 Bank of America	x
 had	x
@@ -114,9 +110,8 @@ investors	n
 through	x
 convertible	j
 loans	n
-.	x
-The	x
 <eos>	x
+The	x
 rest	n
 of	x
 the	x
@@ -138,7 +133,6 @@ sale	n
 of	x
 business	n
 units	n
-.	x
 <eos>	x
 Bank	x
 head	n
@@ -164,9 +158,8 @@ a	x
 very	r
 difficult	j
 time	n
-.	x
-The	x
 <eos>	x
+The	x
 bank	n
 overstretched	j
 at	x
@@ -183,7 +176,6 @@ the	x
 investment	n
 bank	n
 Merrill Lynch	x
-.	x
 <eos>	x
 Citigroup	x
 also	r
@@ -203,10 +195,9 @@ liabilities	n
 with	x
 the	x
 state	n
-.	x
+<eos>	x
 Already	r
 on	x
-<eos>	x
 Thursday	x
 ,	x
 the	x
@@ -231,15 +222,13 @@ with	x
 reference	n
 to	x
 circles	n
-.	x
-A	x
 <eos>	x
+A	x
 Citigroup	x
 spokesman	n
 declined	x
 to	x
 comment	x
-.	x
 <eos>	x
 Goldman Sachs	x
 ,	x
@@ -253,5 +242,4 @@ their	x
 support	n
 in	x
 June	x
-.	x
-Cheshire	x
+<eos>	x

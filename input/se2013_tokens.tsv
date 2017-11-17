@@ -7,7 +7,6 @@ reduce	x
 emissions	n
 The	x
 U.N.-sponsored	j
-<eos>	x
 climate	n
 conference	n
 --	x
@@ -52,9 +51,8 @@ in	x
 the	x
 near	j
 term	n
-.	x
-The	x
 <eos>	x
+The	x
 text	n
 ,	x
 which	x
@@ -83,7 +81,7 @@ illuminated	x
 a	x
 path	n
 forward	r
-.	x
+<eos>	x
 But	x
 it	x
 was	v
@@ -91,7 +89,6 @@ seen	x
 as	x
 an	x
 important	j
-<eos>	x
 advance	n
 in	x
 a	x
@@ -114,11 +111,10 @@ in	x
 Copenhagen	x
 next	j
 week	n
-.	x
+<eos>	x
 Forged	x
 by	x
 a	x
-<eos>	x
 U.N.	x
 ad-hoc	j
 working group	x
@@ -147,12 +143,11 @@ short	j
 and	x
 long	j
 term	n
-.	x
+<eos>	x
 And	x
 it	x
 provides	x
 a	x
-<eos>	x
 range	n
 of	x
 options	n
@@ -189,11 +184,10 @@ be	v
 willing	j
 to	x
 tolerate	x
-.	x
+<eos>	x
 It	x
 gives	x
 a	x
-<eos>	x
 lot	n
 of	x
 flexibility	n
@@ -211,7 +205,7 @@ representative	n
 for	x
 the	x
 Sierra Club	x
-.	x
+<eos>	x
 Michael	x
 Zammit	x
 Cutajar	x
@@ -220,7 +214,6 @@ who	x
 drafted	x
 the	x
 six-page	n
-<eos>	x
 document	n
 ,	x
 boiled	x
@@ -248,12 +241,11 @@ as	x
 the	x
 big	j
 picture	n
-.	x
+<eos>	x
 ''	x
 It	x
 shows	x
 the	x
-<eos>	x
 outlines	n
 for	x
 a	x
@@ -295,11 +287,10 @@ by	x
 to	x
 <number>	x
 percent	n
-.	x
+<eos>	x
 Together	r
 ,	x
 the	x
-<eos>	x
 countries	n
 would	x
 cut	x
@@ -311,9 +302,8 @@ and	x
 percent	n
 by	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 European Union	x
 gave	x
 the	x
@@ -358,10 +348,9 @@ drought	n
 to	x
 avoiding	x
 deforestation	n
-.	x
+<eos>	x
 Still	r
 ,	x
-<eos>	x
 Friday	x
 featured	x
 the	x
@@ -379,7 +368,6 @@ for	x
 the	x
 past	j
 week	n
-.	x
 <eos>	x
 U.S.	x
 special	j
@@ -411,9 +399,8 @@ funded	x
 by	x
 the	x
 developed world	x
-.	x
-The	x
 <eos>	x
+The	x
 move	n
 signaled	x
 that	x
@@ -433,9 +420,8 @@ just	r
 two	x
 years	n
 ago	r
-.	x
-The	x
 <eos>	x
+The	x
 United States	x
 is	v
 not	r
@@ -478,11 +464,10 @@ verified	x
 by	x
 outside	j
 observers	n
-.	x
+<eos>	x
 Stern	x
 made	x
 his	x
-<eos>	x
 comments	n
 an	x
 hour	n
@@ -527,12 +512,11 @@ to	x
 cope	x
 with	x
 global warming	x
-.	x
+<eos>	x
 With	x
 the	x
 future	j
 economic	j
-<eos>	x
 trajectory	n
 of	x
 the	x
@@ -555,10 +539,9 @@ the	x
 industrial world	n
 and	x
 emerging economies	n
-.	x
+<eos>	x
 The	x
 current	j
-<eos>	x
 battle	n
 is	v
 as	r
@@ -602,14 +585,13 @@ to	x
 take	x
 bolder	j
 action	n
-.	x
+<eos>	x
 Ricardo	x
 Ulate	x
 ,	x
 a	x
 Costa	j
 Rican	j
-<eos>	x
 delegate	n
 ,	x
 said	x
@@ -651,12 +633,11 @@ accountable	j
 for	x
 their	x
 actions	n
-.	x
+<eos>	x
 This	x
 is	v
 clearly	r
 a	x
-<eos>	x
 game	n
 where	r
 a	x
@@ -683,11 +664,10 @@ climate change	x
 adviser	n
 for	x
 Conservation International	x
-.	x
+<eos>	x
 Some	x
 of	x
 the	x
-<eos>	x
 countries	n
 most	r
 vulnerable	j
@@ -726,9 +706,8 @@ political	j
 deal	n
 at	x
 best	j
-.	x
-The	x
 <eos>	x
+The	x
 Alliance of Small Island States	x
 ,	x
 which	x
@@ -745,14 +724,13 @@ proposal	n
 early	j
 Friday	x
 morning	n
-.	x
+<eos>	x
 Artur	x
 Runge-Metzger	x
 ,	x
 who	x
 heads	x
 international	j
-<eos>	x
 climate	n
 negotiations	n
 on	x
@@ -796,9 +774,8 @@ as	x
 China	x
 and	x
 India	x
-.	x
-The	x
 <eos>	x
+The	x
 talks	n
 took	x
 on	x
@@ -827,9 +804,8 @@ to	x
 strike	x
 a	x
 deal	n
-.	x
-High-level	j
 <eos>	x
+High-level	j
 officials	n
 such	j
 as	x
@@ -870,13 +846,12 @@ over	x
 the	x
 next	j
 week	n
-.	x
+<eos>	x
 The	x
 sheer	j
 sprawl	n
 of	x
 the	x
-<eos>	x
 gathering	n
 --	x
 where	r
@@ -923,9 +898,8 @@ e-mail	x
 poses	x
 a	x
 challenge	n
-.	x
-The	x
 <eos>	x
+The	x
 intensity	n
 is	v
 only	r
@@ -952,13 +926,12 @@ will	x
 be	v
 in	x
 Copenhagen	x
-.	x
+<eos>	x
 We	x
 're	v
 getting	x
 into	x
 the	x
-<eos>	x
 big leagues	x
 ,	x
 said	x
@@ -970,18 +943,16 @@ global	j
 policy	n
 at	x
 Conservation International	x
-.	x
-The	x
 <eos>	x
+The	x
 heavyweights	n
 are	v
 coming	x
-.	x
+<eos>	x
 Baskonia	x
 gives	x
 away	r
 a	x
-<eos>	x
 victory	n
 in	x
 Israel	x
@@ -990,7 +961,6 @@ achieved	x
 a	x
 stunning	j
 <number>	x
-<eos>	x
 victory	n
 on	x
 their	x
@@ -1041,10 +1011,9 @@ top	n
 of	x
 their	x
 group	n
-.	x
+<eos>	x
 The	x
 Vitorian	x
-<eos>	x
 team	n
 knew	x
 to	x
@@ -1085,12 +1054,11 @@ to	x
 take	x
 the	x
 victory	n
-.	x
+<eos>	x
 Additionally	r
 ,	x
 their	x
 huge	j
-<eos>	x
 success	n
 from	x
 the	x
@@ -1110,9 +1078,8 @@ with	x
 the	x
 final	j
 triumph	n
-.	x
-The	x
 <eos>	x
+The	x
 game	n
 started	x
 out	x
@@ -1132,13 +1099,12 @@ scoreboard	n
 from	x
 the	x
 start	n
-.	x
+<eos>	x
 As	x
 Vitora	x
 's	x
 first	j
 four	x
-<eos>	x
 baskets	n
 were	v
 from	x
@@ -1160,14 +1126,13 @@ net	n
 with	x
 hot	j
 wrists	n
-.	x
+<eos>	x
 English	x
 and	x
 Teletovic	x
 were	v
 the	x
 main	j
-<eos>	x
 scorers	n
 of	x
 the	x
@@ -1178,10 +1143,9 @@ end	n
 of	x
 the	x
 first period	x
-.	x
+<eos>	x
 The	x
 second	j
-<eos>	x
 quarter	n
 was	v
 more	j
@@ -1228,7 +1192,7 @@ half-time	n
 (	x
 <number>	x
 )	x
-.	x
+<eos>	x
 Teletovic	x
 had	x
 already	r
@@ -1241,7 +1205,6 @@ the	x
 best	j
 on	x
 his	x
-<eos>	x
 team	n
 with	x
 <number>	x
@@ -1271,10 +1234,9 @@ night	n
 for	x
 the	x
 Brazilian	j
-.	x
+<eos>	x
 But	x
 the	x
-<eos>	x
 game	n
 ,	x
 despite	x
@@ -1324,14 +1286,13 @@ involved	x
 in	x
 the	x
 game	n
-.	x
+<eos>	x
 Eidson	x
 and	x
 Pnini	x
 played	x
 a	x
 decisive	j
-<eos>	x
 role	n
 in	x
 the	x
@@ -1343,13 +1304,11 @@ return	n
 to	x
 the	x
 light	n
-.	x
-More	j
 <eos>	x
+More	j
 disadvantages	n
 Ivanovic	x
 's	x
-<eos>	x
 players	n
 ,	x
 injured	x
@@ -1425,7 +1384,7 @@ quarter	n
 (	x
 <number>	x
 )	x
-.	x
+<eos>	x
 The	x
 Alavas	x
 worked	x
@@ -1436,7 +1395,6 @@ bone	n
 in	x
 the	x
 last	j
-<eos>	x
 period	n
 ,	x
 and	x
@@ -1470,7 +1428,7 @@ the	x
 first	j
 thirty	x
 minutes	n
-.	x
+<eos>	x
 However	r
 ,	x
 Pnini	x
@@ -1481,7 +1439,6 @@ the	x
 best	j
 on	x
 their	x
-<eos>	x
 team	n
 ,	x
 did	x
@@ -1502,9 +1459,8 @@ line	n
 (	x
 <number>	x
 )	x
-.	x
-In	x
 <eos>	x
+In	x
 spite	n
 of	x
 this	x
@@ -1553,7 +1509,6 @@ time	n
 in	x
 the	x
 season	n
-.	x
 <eos>	x
 Wall Street	x
 closes	x
@@ -1566,7 +1521,6 @@ a	x
 strengthening	j
 dollar	n
 The	x
-<eos>	x
 New York Stock Exchange	x
 closed	x
 with	x
@@ -1604,11 +1558,10 @@ NASDAQ	x
 dropped	x
 <number>	x
 %	n
-.	x
+<eos>	x
 According	x
 to	x
 final	j
-<eos>	x
 closing	n
 figures	n
 ,	x
@@ -1641,10 +1594,9 @@ to	x
 <number>	x
 <number>	x
 points	n
-.	x
+<eos>	x
 The	x
 wider	j
-<eos>	x
 Standard & Poor	x
 's	x
 <number>	x
@@ -1662,11 +1614,10 @@ to	x
 <number>	x
 <number>	x
 points	n
-.	x
+<eos>	x
 Frankly	r
 ,	x
 the	x
-<eos>	x
 market	n
 is	v
 very	r
@@ -1678,12 +1629,11 @@ Blicksilver	x
 of	x
 Marblehead	x
 Asset Management	x
-.	x
+<eos>	x
 It	x
 remains	x
 within	x
 a	x
-<eos>	x
 narrow margin	x
 ;	x
 trading	n
@@ -1708,9 +1658,8 @@ end	n
 of	x
 the	x
 year	n
-.	x
-The	x
 <eos>	x
+The	x
 trend	n
 was	v
 supported	x
@@ -1747,10 +1696,9 @@ summarised	x
 Charles Schwab	x
 's	x
 analysts	n
-.	x
+<eos>	x
 In	x
 the	x
-<eos>	x
 United States	x
 ,	x
 retail	j
@@ -1776,11 +1724,10 @@ far	r
 more	r
 than	x
 predicted	x
-.	x
+<eos>	x
 Moreover	r
 ,	x
 the	x
-<eos>	x
 confidence	n
 of	x
 American	j
@@ -1808,9 +1755,8 @@ from	x
 Michigan University	x
 's	x
 index	n
-.	x
-The	x
 <eos>	x
+The	x
 indices	n
 have	x
 ,	x
@@ -1857,7 +1803,6 @@ Owen	x
 Fitzpatrick	x
 from	x
 Deutsche Bank	x
-.	x
 <eos>	x
 Technology	n
 securities	n
@@ -1866,13 +1811,11 @@ thereby	r
 lost	x
 some	x
 ground	n
-.	x
-The	x
 <eos>	x
+The	x
 bond market	n
 has	x
 fallen	x
-.	x
 <eos>	x
 Treasury	x
 <number>	j
@@ -1904,7 +1847,6 @@ against	x
 the	x
 previous	j
 evening	n
-.	x
 <eos>	x
 Iraqi Oil Ministry	x
 reaches	x
@@ -1914,7 +1856,6 @@ with	x
 foreign	j
 oil companies	x
 Despite	x
-<eos>	x
 concerns	n
 about	x
 violence	n
@@ -1941,10 +1882,9 @@ auctions	n
 that	x
 concluded	x
 Saturday	x
-.	x
+<eos>	x
 The	x
 <number>	x
-<eos>	x
 deals	n
 the	x
 Iraqi Oil Ministry	x
@@ -1981,9 +1921,8 @@ of	x
 war	n
 and	x
 sanctions	n
-.	x
-American	j
 <eos>	x
+American	j
 companies	n
 walked	x
 away	r
@@ -1997,10 +1936,9 @@ the	x
 <number>	x
 auctioned	x
 fields	n
-.	x
+<eos>	x
 Seven	x
 American	j
-<eos>	x
 companies	n
 had	x
 paid	x
@@ -2014,20 +1952,18 @@ auction	n
 which	x
 began	x
 Friday	x
-.	x
+<eos>	x
 The	x
 only	j
 one	x
 that	x
 submitted	x
 a	x
-<eos>	x
 bid	n
 lost	x
-.	x
+<eos>	x
 Two	x
 American	j
-<eos>	x
 companies	n
 reached	x
 deals	n
@@ -2036,10 +1972,9 @@ fields	n
 auctioned	x
 in	x
 June	x
-.	x
+<eos>	x
 The	x
 meager	j
-<eos>	x
 representation	n
 of	x
 American	j
@@ -2052,7 +1987,6 @@ opening	x
 oil industry	x
 surprised	j
 analysts	n
-.	x
 <eos>	x
 Iraq	x
 finally	r
@@ -2095,12 +2029,11 @@ an	x
 online	j
 news	n
 outlet	n
-.	x
+<eos>	x
 It	x
 will	x
 be	v
 a	x
-<eos>	x
 long time	x
 before	x
 anything	n
@@ -2111,7 +2044,6 @@ on	x
 offer	n
 in	x
 Iraq	x
-.	x
 <eos>	x
 Concerns	n
 over	x
@@ -2156,7 +2088,6 @@ reserves	n
 ,	x
 analysts	n
 said	x
-.	x
 <eos>	x
 U.S.	x
 firms	n
@@ -2198,7 +2129,6 @@ n't	r
 respond	x
 to	x
 shareholders	n
-.	x
 <eos>	x
 Exxon-Mobil	x
 and	x
@@ -2215,9 +2145,8 @@ deals	n
 with	x
 the	x
 ministry	n
-.	x
-Major	j
 <eos>	x
+Major	j
 U.S.	x
 firms	n
 such	j
@@ -2246,9 +2175,8 @@ years	n
 walked	x
 away	r
 empty-handed	j
-.	x
-Russian	j
 <eos>	x
+Russian	j
 companies	n
 Lukoil	x
 and	x
@@ -2265,9 +2193,8 @@ contracts	n
 awarded	x
 this	x
 weekend	n
-.	x
-State-owned	j
 <eos>	x
+State-owned	j
 China National Petroleum Corporation	x
 bid	n
 on	x
@@ -2289,12 +2216,11 @@ for	x
 two	x
 major	j
 fields	n
-.	x
+<eos>	x
 We	x
 all	r
 know	x
 that	x
-<eos>	x
 China	x
 is	v
 on	x
@@ -2315,14 +2241,13 @@ spokesman	n
 Assam	x
 Jihad	x
 said	x
-.	x
+<eos>	x
 We	x
 feel	x
 confident	j
 that	x
 the	x
 Chinese	j
-<eos>	x
 company	n
 will	x
 be	v
@@ -2339,7 +2264,6 @@ its	x
 commitments	n
 towards	x
 Iraq	x
-.	x
 <eos>	x
 Companies	n
 pre-selected	j
@@ -2372,16 +2296,14 @@ levels	n
 at	x
 each	x
 field	n
-.	x
-US	x
 <eos>	x
+US	x
 banks	n
 repay	x
 state	n
 support	n
 The	x
 crisis-hit	n
-<eos>	x
 US	x
 major	j
 banks	n
@@ -2392,9 +2314,8 @@ from	x
 their	x
 state	n
 shackles	n
-.	x
-On	x
 <eos>	x
+On	x
 Wednesday	x
 Bank of America	x
 repaid	x
@@ -2421,12 +2342,11 @@ billion	x
 in	x
 one	x
 go	x
-.	x
+<eos>	x
 And	x
 ,	x
 according	x
 to	x
-<eos>	x
 reports	n
 from	x
 US	x
@@ -2442,9 +2362,8 @@ repay	x
 the	x
 state	n
 support	n
-.	x
-The	x
 <eos>	x
+The	x
 institutions	n
 thereby	r
 want	x
@@ -2477,7 +2396,6 @@ paying	x
 of	x
 high	j
 charges	n
-.	x
 <eos>	x
 Bank of America	x
 had	x
@@ -2491,9 +2409,8 @@ investors	n
 through	x
 convertible	j
 loans	n
-.	x
-The	x
 <eos>	x
+The	x
 rest	n
 of	x
 the	x
@@ -2515,7 +2432,6 @@ sale	n
 of	x
 business	n
 units	n
-.	x
 <eos>	x
 Bank	x
 head	n
@@ -2541,9 +2457,8 @@ a	x
 very	r
 difficult	j
 time	n
-.	x
-The	x
 <eos>	x
+The	x
 bank	n
 overstretched	j
 at	x
@@ -2560,7 +2475,6 @@ the	x
 investment	n
 bank	n
 Merrill Lynch	x
-.	x
 <eos>	x
 Citigroup	x
 also	r
@@ -2580,10 +2494,9 @@ liabilities	n
 with	x
 the	x
 state	n
-.	x
+<eos>	x
 Already	r
 on	x
-<eos>	x
 Thursday	x
 ,	x
 the	x
@@ -2608,15 +2521,13 @@ with	x
 reference	n
 to	x
 circles	n
-.	x
-A	x
 <eos>	x
+A	x
 Citigroup	x
 spokesman	n
 declined	x
 to	x
 comment	x
-.	x
 <eos>	x
 Goldman Sachs	x
 ,	x
@@ -2630,9 +2541,8 @@ their	x
 support	n
 in	x
 June	x
-.	x
-Cheshire	x
 <eos>	x
+Cheshire	x
 Appeal	x
 Will	x
 Point	x
@@ -2640,7 +2550,6 @@ to	x
 Twitter	x
 There	x
 were	v
-<eos>	x
 half a dozen	x
 of	x
 them	x
@@ -2650,7 +2559,7 @@ in	x
 the	x
 courtroom	n
 rows	n
-.	x
+<eos>	x
 Minute	n
 by	x
 minute	n
@@ -2658,17 +2567,15 @@ minute	n
 they	x
 sent	x
 out	x
-<eos>	x
 reports	n
 of	x
 gruesome	j
 testimony	n
 via	x
 Twitter	x
-.	x
+<eos>	x
 In	x
 the	x
-<eos>	x
 end	n
 ,	x
 the	x
@@ -2702,9 +2609,8 @@ that	x
 was	v
 set	x
 ablaze	r
-.	x
-On	x
 <eos>	x
+On	x
 Thursday	x
 ,	x
 the	x
@@ -2750,9 +2656,8 @@ for	x
 by	x
 the	x
 jury	n
-.	x
-But	x
 <eos>	x
+But	x
 lawyers	n
 for	x
 Mr.	x
@@ -2776,7 +2681,7 @@ the	x
 courts	n
 for	x
 years	n
-.	x
+<eos>	x
 One	x
 of	x
 the	x
@@ -2786,7 +2691,6 @@ is	v
 that	x
 the	x
 intense	j
-<eos>	x
 reporting	n
 on	x
 the	x
@@ -2825,9 +2729,8 @@ swayed	x
 by	x
 public	j
 passions	n
-.	x
-The	x
 <eos>	x
+The	x
 claim	n
 could	x
 force	x
@@ -2846,7 +2749,7 @@ requires	x
 new	j
 courtroom	n
 rules	n
-.	x
+<eos>	x
 ``	x
 As	x
 I	x
@@ -2854,7 +2757,6 @@ experienced	x
 it	x
 during	x
 this	x
-<eos>	x
 trial	n
 ,	x
 I	x
@@ -2891,9 +2793,8 @@ Hayes	x
 's	x
 chief	j
 defense lawyer	x
-.	x
-The	x
 <eos>	x
+The	x
 trial judge	x
 ,	x
 Jon	x
@@ -2934,7 +2835,7 @@ was	v
 driven	x
 by	x
 passion	n
-.	x
+<eos>	x
 But	x
 that	x
 is	v
@@ -2943,14 +2844,12 @@ likely	j
 to	x
 be	v
 the	x
-<eos>	x
 last word	x
 on	x
 the	x
 issue	n
-.	x
-For	x
 <eos>	x
+For	x
 decades	n
 ,	x
 appeals courts	x
@@ -2969,12 +2868,11 @@ a	x
 trial	n
 's	x
 fairness	n
-.	x
+<eos>	x
 In	x
 a	x
 landmark	j
 <number>	x
-<eos>	x
 ruling	n
 ,	x
 the	x
@@ -3018,9 +2916,8 @@ because	x
 of	x
 the	x
 news media	x
-.	x
-The	x
 <eos>	x
+The	x
 crime	n
 is	v
 believed	x
@@ -3039,10 +2936,9 @@ the	x
 movie	n
 ``	x
 The Fugitive	n
-.	x
+<eos>	x
 ''	x
 Some	x
-<eos>	x
 lawyers	n
 said	x
 appeals courts	x
@@ -3083,13 +2979,12 @@ Dr.	x
 Sheppard	x
 's	x
 case	n
-.	x
+<eos>	x
 ``	x
 There	x
 is	v
 a	x
 general	j
-<eos>	x
 reason	n
 for	x
 concern	n
@@ -3125,7 +3020,6 @@ it	x
 was	v
 arbitrarily	r
 enforced	x
-.	x
 <eos>	x
 Professor	x
 Donohue	x
@@ -3149,9 +3043,8 @@ might	x
 make	x
 trials	n
 fairer	j
-.	x
-The	x
 <eos>	x
+The	x
 Twitter	x
 issue	n
 is	v
@@ -3177,9 +3070,8 @@ years	n
 delaying	x
 an	x
 execution	n
-.	x
-The	x
 <eos>	x
+The	x
 defense lawyers	x
 also	r
 claim	x
@@ -3215,11 +3107,10 @@ crime-scene	n
 photographs	n
 during	x
 jury selection	n
-.	x
+<eos>	x
 Some	x
 of	x
 the	x
-<eos>	x
 jurors	n
 have	x
 said	x
@@ -3249,9 +3140,8 @@ and	x
 Michaela	x
 ,	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 defense lawyers	x
 say	x
 they	x
@@ -3300,17 +3190,15 @@ deliberate	x
 over	x
 a	x
 weekend	n
-.	x
-The	x
 <eos>	x
+The	x
 jurors	n
 were	v
 not	r
 sequestered	x
-.	x
+<eos>	x
 But	x
 their	x
-<eos>	x
 arguments	n
 about	x
 the	x
@@ -3327,12 +3215,11 @@ draw	x
 the	x
 most	j
 interest	n
-.	x
+<eos>	x
 They	x
 noted	x
 in	x
 a	x
-<eos>	x
 challenge	n
 to	x
 the	x
@@ -3362,12 +3249,11 @@ governor	n
 and	x
 the	x
 United States Senate	x
-.	x
+<eos>	x
 They	x
 argued	x
 that	x
 the	x
-<eos>	x
 news media	n
 continually	r
 fanned	x
@@ -3378,11 +3264,10 @@ emotion	n
 about	x
 the	x
 case	n
-.	x
+<eos>	x
 ``	x
 The	x
 daily	j
-<eos>	x
 crush	n
 of	x
 media	n
@@ -3412,10 +3297,9 @@ New Haven	x
 and	x
 maybe	r
 statewide	j
-.	x
+<eos>	x
 ''	x
 Their	x
-<eos>	x
 focus	n
 on	x
 the	x
@@ -3423,9 +3307,8 @@ Twitter	x
 coverage	n
 is	v
 controversial	j
-.	x
-In	x
 <eos>	x
+In	x
 interviews	n
 ,	x
 some	x
@@ -3459,10 +3342,9 @@ coverage	n
 of	x
 future	j
 trials	n
-.	x
+<eos>	x
 But	x
 some	x
-<eos>	x
 lawyers	n
 said	x
 appeals courts	x
@@ -3481,20 +3363,18 @@ adaptation	n
 by	x
 the	x
 courts	n
-.	x
+<eos>	x
 Mr.	x
 Hayes	x
 's	x
-<eos>	x
 lawyers	n
 are	v
 pressing	x
 that	x
 claim	n
-.	x
+<eos>	x
 In	x
 their	x
-<eos>	x
 filing	n
 ,	x
 they	x
@@ -3528,10 +3408,9 @@ new media	x
 required	x
 new	j
 rules	n
-.	x
+<eos>	x
 ``	x
 This	x
-<eos>	x
 case	n
 ,	x
 ''	x
@@ -3546,14 +3425,12 @@ of	x
 the	x
 <number>	j
 century	n
-.	x
-''	x
 <eos>	x
+''	x
 Sport	n
 and	x
 fraud	n
 law	n
-<eos>	x
 Tricks	n
 such	j
 as	x
@@ -3577,9 +3454,8 @@ remove	x
 of	x
 a	x
 sanction	n
-.	x
-The	x
 <eos>	x
+The	x
 expulsion	n
 presumably	r
 forged	x
@@ -3631,7 +3507,7 @@ be	v
 sanctioned	x
 by	x
 UEFA	x
-.	x
+<eos>	x
 As	x
 we	x
 all	r
@@ -3639,7 +3515,6 @@ know	x
 ,	x
 a	x
 few	j
-<eos>	x
 minutes	n
 before	x
 the	x
@@ -3674,9 +3549,8 @@ to	x
 both	x
 of	x
 them	x
-.	x
-This	x
 <eos>	x
+This	x
 way	n
 ,	x
 and	x
@@ -3720,11 +3594,10 @@ cards	n
 the	x
 following	x
 phase	n
-.	x
+<eos>	x
 Finally	r
 ,	x
 the	x
-<eos>	x
 committee	n
 of	x
 discipline	n
@@ -3752,9 +3625,8 @@ amounts	n
 the	x
 implied	j
 players	n
-.	x
-The	x
 <eos>	x
+The	x
 provocation	n
 of	x
 a	x
@@ -3780,7 +3652,7 @@ the	x
 world	n
 of	x
 football	n
-.	x
+<eos>	x
 It	x
 is	v
 so	r
@@ -3790,7 +3662,6 @@ it	x
 part	x
 of	x
 the	x
-<eos>	x
 ethos	n
 ,	x
 of	x
@@ -3804,7 +3675,6 @@ nonetheless	r
 by	x
 this	x
 sport	n
-.	x
 <eos>	x
 Part	n
 of	x
@@ -3876,11 +3746,10 @@ histrionic	j
 and	x
 provoking	j
 technician	n
-.	x
+<eos>	x
 Anyway	r
 ,	x
 the	x
-<eos>	x
 debate	n
 deals	x
 with	x
@@ -3935,9 +3804,8 @@ to	x
 elude	x
 its	x
 sense	n
-.	x
-The	x
 <eos>	x
+The	x
 matter	n
 examines	x
 the	x
@@ -3951,11 +3819,10 @@ to	x
 the	x
 sporting	j
 spirit	n
-.	x
+<eos>	x
 One	x
 of	x
 the	x
-<eos>	x
 advantages	n
 that	x
 include	x
@@ -3992,11 +3859,10 @@ was	v
 no	x
 violent	j
 game	n
-.	x
+<eos>	x
 Another	x
 of	x
 these	x
-<eos>	x
 advantages	n
 to	x
 which	x
@@ -4030,12 +3896,11 @@ did	x
 not	r
 happen	x
 either	r
-.	x
+<eos>	x
 However	r
 ,	x
 the	x
 paradoxical	j
-<eos>	x
 thing	n
 about	x
 the	x
@@ -4091,21 +3956,19 @@ punishment	n
 from	x
 the	x
 referee	n
-.	x
+<eos>	x
 They	x
 waited	x
 for	x
 and	x
 accepted	x
 the	x
-<eos>	x
 sanction	n
 with	x
 no	x
 complaints	n
-.	x
-Another	x
 <eos>	x
+Another	x
 question	n
 is	v
 what	x
@@ -4121,7 +3984,7 @@ actions	n
 deliberately	r
 carried	x
 out	x
-.	x
+<eos>	x
 Here	r
 it	x
 seems	x
@@ -4134,7 +3997,6 @@ is	v
 n't	r
 a	x
 disadvantageous	j
-<eos>	x
 situation	n
 for	x
 rival	n
@@ -4163,14 +4025,13 @@ team	n
 with	x
 less	j
 players	n
-.	x
+<eos>	x
 And	x
 neither	x
 is	v
 it	x
 a	x
 useful	j
-<eos>	x
 strategy	n
 for	x
 the	x
@@ -4189,9 +4050,8 @@ count	x
 on	x
 those	x
 players	n
-.	x
-The	x
 <eos>	x
+The	x
 advantage	n
 ,	x
 obviously	r
@@ -4222,14 +4082,13 @@ in	x
 a	x
 future	j
 game	n
-.	x
+<eos>	x
 But	x
 it	x
 is	v
 about	r
 a	x
 long	j
-<eos>	x
 term	n
 advantage	n
 ,	x
@@ -4288,13 +4147,12 @@ in	x
 the	x
 first	j
 cycle	n
-.	x
+<eos>	x
 So	r
 that	x
 ,	x
 by	x
 passing	x
-<eos>	x
 rounds	n
 ,	x
 it	x
@@ -4307,9 +4165,8 @@ it	x
 is	v
 an	x
 advantage	n
-.	x
-Those	x
 <eos>	x
+Those	x
 actions	n
 are	v
 really	r
@@ -4333,10 +4190,9 @@ allowed	x
 by	x
 the	x
 rules	n
-.	x
+<eos>	x
 Regarding	x
 this	x
-<eos>	x
 assumption	n
 ,	x
 the	x
@@ -4372,21 +4228,19 @@ when	r
 to	x
 obey	x
 it	x
-.	x
+<eos>	x
 They	x
 made	x
 a	x
 strategic	j
-<eos>	x
 decision	n
 without	x
 avoiding	x
 the	x
 punishment	n
-.	x
+<eos>	x
 Although	x
 the	x
-<eos>	x
 border	n
 between	x
 the	x
@@ -4410,9 +4264,8 @@ clear	j
 case	n
 of	x
 wittiness	n
-.	x
-The	x
 <eos>	x
+The	x
 controversy	n
 seems	x
 to	x
@@ -4442,9 +4295,8 @@ out	x
 to	x
 cause	x
 them	x
-.	x
-The	x
 <eos>	x
+The	x
 damage	n
 brought	x
 about	r
@@ -4464,9 +4316,8 @@ much	r
 ethical	j
 as	x
 aesthetic	j
-.	x
-Arsenic-tolerant	j
 <eos>	x
+Arsenic-tolerant	j
 microbe	n
 raises	x
 possibility	n
@@ -4479,7 +4330,6 @@ life on Earth	x
 or	x
 elsewhere	r
 The	x
-<eos>	x
 discovery	n
 of	x
 a	x
@@ -4506,9 +4356,8 @@ life on Earth	x
 and	x
 possibly	r
 beyond	r
-.	x
-While	x
 <eos>	x
+While	x
 researchers	n
 discovered	x
 the	x
@@ -4535,15 +4384,14 @@ have	x
 been	v
 considered	x
 essential	j
-.	x
+<eos>	x
 ``	x
 This	x
-<eos>	x
 organism	n
 has	x
 dual	j
 capability	n
-.	x
+<eos>	x
 ''	x
 ``	x
 It	x
@@ -4551,11 +4399,10 @@ can	x
 grow	x
 with	x
 either	x
-<eos>	x
 phosphorus	n
 or	x
 arsenic	n
-.	x
+<eos>	x
 ''	x
 ``	x
 That	x
@@ -4571,7 +4418,6 @@ short	r
 of	x
 being	v
 some	x
-<eos>	x
 form	n
 of	x
 truly	r
@@ -4601,10 +4447,9 @@ of	x
 the	x
 journal	n
 Science	n
-.	x
+<eos>	x
 Six	x
 major	j
-<eos>	x
 elements	n
 have	x
 long	r
@@ -4625,10 +4470,9 @@ oxygen	n
 phosphorus	n
 and	x
 sulfur	n
-.	x
+<eos>	x
 But	x
 the	x
-<eos>	x
 researchers	n
 found	x
 that	x
@@ -4652,7 +4496,7 @@ substituting	x
 arsenic	n
 for	x
 phosphorus	n
-.	x
+<eos>	x
 ``	x
 It	x
 makes	x
@@ -4669,7 +4513,6 @@ Ariel	x
 D.	x
 Anbar	x
 of	x
-<eos>	x
 Arizona State University	x
 ,	x
 a	x
@@ -4677,9 +4520,8 @@ co-author	n
 of	x
 the	x
 report	n
-.	x
-The	x
 <eos>	x
+The	x
 find	n
 is	v
 important	j
@@ -4709,9 +4551,8 @@ like	x
 ,	x
 Anbar	x
 said	x
-.	x
-The	x
 <eos>	x
+The	x
 study	n
 focuses	x
 on	x
@@ -4720,11 +4561,10 @@ microbe	n
 found	x
 on	x
 Earth	x
-.	x
+<eos>	x
 However	r
 ,	x
 the	x
-<eos>	x
 announcement	n
 of	x
 a	x
@@ -4757,13 +4597,12 @@ the	x
 discovery	n
 of	x
 extraterrestrial life	n
-.	x
+<eos>	x
 It	x
 did	x
 n't	r
-.	x
-The	x
 <eos>	x
+The	x
 discovery	n
 ``	x
 does	x
@@ -4824,20 +4663,18 @@ in	x
 Milton Keynes	x
 ,	x
 United Kingdom	x
-.	x
+<eos>	x
 Cockell	x
 was	v
 not	r
-<eos>	x
 part	n
 of	x
 the	x
 research	n
 team	n
-.	x
+<eos>	x
 ``	x
 This	x
-<eos>	x
 work	n
 is	v
 novel	j
@@ -4861,15 +4698,13 @@ structure	n
 ''	x
 added	x
 Cockell	x
-.	x
+<eos>	x
 It	x
 was	v
 n't	r
 a	x
 chance	n
-<eos>	x
 discovery	n
-.	x
 <eos>	x
 Felisa Wolfe-Simon	x
 of	x
@@ -4891,7 +4726,6 @@ has	x
 high	j
 arsenic	n
 levels	n
-.	x
 <eos>	x
 Arsenic	n
 and	x
@@ -4918,9 +4752,8 @@ one	x
 for	x
 the	x
 other	j
-.	x
-``	x
 <eos>	x
+``	x
 Arsenic	n
 is	v
 toxic	j
@@ -4936,12 +4769,11 @@ to	x
 that	x
 of	x
 phosphorus	n
-.	x
+<eos>	x
 ''	x
 ``	x
 As	x
 a	x
-<eos>	x
 result	n
 ,	x
 organisms	n
@@ -4952,11 +4784,10 @@ telling	x
 these	x
 elements	n
 apart	r
-.	x
+<eos>	x
 ''	x
 ``	x
 But	x
-<eos>	x
 arsenic	n
 is	v
 different	j
@@ -4991,9 +4822,8 @@ machinery	n
 ''	x
 explained	x
 Anbar	x
-.	x
-The	x
 <eos>	x
+The	x
 researchers	n
 collected	x
 the	x
@@ -5019,9 +4849,8 @@ adapt	x
 to	x
 and	x
 grow	x
-.	x
-The	x
 <eos>	x
+The	x
 microbe	n
 does	x
 grow	x
@@ -5065,13 +4894,12 @@ arsenic	n
 is	v
 more	r
 common	j
-.	x
+<eos>	x
 Jamie	x
 S.	x
 Foster	x
 ,	x
 an	x
-<eos>	x
 assistant professor	x
 of	x
 microbiology	n
@@ -5105,7 +4933,6 @@ was	v
 shown	x
 to	x
 work	x
-.	x
 <eos>	x
 Arsenic	n
 was	v
@@ -5132,7 +4959,7 @@ might	x
 have	x
 used	x
 it	x
-.	x
+<eos>	x
 ``	x
 It	x
 does	x
@@ -5143,7 +4970,6 @@ there	x
 could	x
 be	v
 other	j
-<eos>	x
 ways	n
 to	x
 form	x
@@ -5171,9 +4997,8 @@ Wolfe-Simon	x
 's	x
 research	n
 team	n
-.	x
-The	x
 <eos>	x
+The	x
 research	n
 was	v
 supported	x
@@ -5185,12 +5010,10 @@ Department of Energy	x
 and	x
 the	x
 National Institutes of Health	x
-.	x
+<eos>	x
 The	x
 democratic	j
-<eos>	x
 routine	n
-<eos>	x
 Support	n
 for	x
 democracy	n
@@ -5206,7 +5029,6 @@ does	x
 backing	n
 for	x
 private enterprise	x
-.	x
 <eos>	x
 Crime	n
 has	x
@@ -5216,9 +5038,8 @@ bigger	j
 worry	n
 than	x
 unemployment	n
-.	x
-And	x
 <eos>	x
+And	x
 Brazil	x
 is	v
 seen	x
@@ -5233,13 +5054,12 @@ much	j
 of	x
 the	x
 region	n
-.	x
+<eos>	x
 Those	x
 are	v
 some	x
 of	x
 the	x
-<eos>	x
 findings	n
 of	x
 the	x
@@ -5256,10 +5076,9 @@ exclusively	r
 by	x
 The	x
 Economist	n
-.	x
+<eos>	x
 Because	x
 the	x
-<eos>	x
 poll	n
 has	x
 been	v
@@ -5276,10 +5095,9 @@ attitude	n
 across	x
 the	x
 region	n
-.	x
+<eos>	x
 Two	x
 related	j
-<eos>	x
 things	n
 stand	x
 out	x
@@ -5298,19 +5116,17 @@ September	x
 and	x
 early	j
 October	x
-.	x
+<eos>	x
 The	x
 first	j
 is	v
-<eos>	x
 Latin America	x
 's	x
 fairly	r
 sunny	j
 mood	n
-.	x
-The	x
 <eos>	x
+The	x
 second	n
 is	v
 the	x
@@ -5324,7 +5140,6 @@ and	x
 its	x
 core	j
 institutions	n
-.	x
 <eos>	x
 Support	n
 for	x
@@ -5345,9 +5160,8 @@ see	x
 table	n
 <number>	x
 )	x
-.	x
-For	x
 <eos>	x
+For	x
 example	n
 in	x
 Peru	x
@@ -5381,12 +5195,11 @@ to	x
 %	n
 this	x
 year	n
-.	x
+<eos>	x
 It	x
 also	r
 rose	x
 in	x
-<eos>	x
 Mexico	x
 ,	x
 where	r
@@ -5403,11 +5216,10 @@ in	x
 output	n
 last	j
 year	n
-.	x
+<eos>	x
 But	x
 only	r
 around	x
-<eos>	x
 half	n
 of	x
 respondents	n
@@ -5439,10 +5251,9 @@ see	x
 chart	n
 <number>	x
 )	x
-.	x
+<eos>	x
 Some	x
 <number>	x
-<eos>	x
 %	n
 of	x
 respondents	n
@@ -5482,10 +5293,9 @@ in	x
 chart	n
 <number>	x
 )	x
-.	x
+<eos>	x
 Some	x
 <number>	x
-<eos>	x
 %	n
 said	x
 they	x
@@ -5524,9 +5334,8 @@ and	x
 %	n
 respectively	r
 )	x
-.	x
-A	x
 <eos>	x
+A	x
 decade	n
 ago	r
 economic	j
@@ -5537,7 +5346,7 @@ undermined	x
 support	n
 for	x
 democracy	n
-.	x
+<eos>	x
 That	x
 it	x
 has	x
@@ -5545,7 +5354,6 @@ held	x
 up	x
 during	x
 the	x
-<eos>	x
 world	n
 financial crisis	n
 is	v
@@ -5566,9 +5374,8 @@ enjoyed	x
 a	x
 strong	j
 recovery	n
-.	x
-In	x
 <eos>	x
+In	x
 addition	n
 ,	x
 a	x
@@ -5581,10 +5388,9 @@ to	x
 shield	x
 the	x
 poor	j
-.	x
+<eos>	x
 (	x
 The	x
-<eos>	x
 United Nations	x
 '	x
 Economic Commission for Latin America	x
@@ -5614,11 +5420,10 @@ year	n
 to	x
 <number>	x
 %	n
-.	x
+<eos>	x
 -RRB-	n
 But	x
 the	x
-<eos>	x
 mood	n
 varies	x
 widely	r
@@ -5631,7 +5436,6 @@ see	x
 chart	n
 <number>	x
 )	x
-.	x
 <eos>	x
 Brazil	x
 's	x
@@ -5657,12 +5461,11 @@ shared	x
 sense	n
 of	x
 progress	n
-.	x
+<eos>	x
 That	x
 is	v
 scarcer	j
 in	x
-<eos>	x
 Mexico	x
 and	x
 Central America	x
@@ -5678,12 +5481,11 @@ violent	j
 crime	n
 has	x
 worsened	x
-.	x
+<eos>	x
 For	x
 only	r
 the	x
 second	j
-<eos>	x
 time	n
 since	x
 the	x
@@ -5717,10 +5519,9 @@ see	x
 chart	n
 <number>	x
 )	x
-.	x
+<eos>	x
 Some	x
 <number>	x
-<eos>	x
 %	n
 say	x
 that	x
@@ -5756,12 +5557,11 @@ lowest	j
 figure	n
 since	x
 <number>	x
-.	x
+<eos>	x
 A	x
 more	r
 robust	j
 economic	j
-<eos>	x
 performance	n
 is	v
 reflected	x
@@ -5801,10 +5601,9 @@ see	x
 chart	n
 <number>	x
 )	x
-.	x
+<eos>	x
 Some	x
 <number>	x
-<eos>	x
 %	n
 agree	x
 that	x
@@ -5827,11 +5626,10 @@ from	x
 %	n
 last	j
 year	n
-.	x
+<eos>	x
 Interestingly	r
 ,	x
 <number>	x
-<eos>	x
 %	n
 of	x
 respondents	n
@@ -5861,7 +5659,6 @@ expropriating	x
 many	j
 private	j
 companies	n
-.	x
 <eos>	x
 Brazil	x
 is	v
@@ -5916,10 +5713,9 @@ from	x
 last	j
 year	n
 )	x
-.	x
+<eos>	x
 But	x
 the	x
-<eos>	x
 United States	x
 is	v
 seen	x
@@ -5949,13 +5745,12 @@ the	x
 Dominican Republic	x
 and	x
 Nicaragua	x
-.	x
+<eos>	x
 Scalia	x
 and	x
 Thomas	x
 dine	x
 with	x
-<eos>	x
 healthcare	n
 law	n
 challengers	n
@@ -5964,7 +5759,6 @@ court	n
 takes	x
 case	n
 The	x
-<eos>	x
 day	n
 the	x
 Supreme Court	x
@@ -6017,9 +5811,8 @@ case	n
 before	x
 the	x
 high court	x
-.	x
-The	x
 <eos>	x
+The	x
 occasion	n
 was	v
 last	j
@@ -6040,11 +5833,10 @@ the	x
 petitions	n
 for	x
 review	n
-.	x
+<eos>	x
 One	x
 of	x
 the	x
-<eos>	x
 cases	n
 at	x
 issue	n
@@ -6077,9 +5869,8 @@ for	x
 conservative	j
 activists	n
 nationwide	j
-.	x
-The	x
 <eos>	x
+The	x
 justices	n
 agreed	x
 to	x
@@ -6128,9 +5919,8 @@ court	n
 decision	n
 is	v
 released	x
-.	x
-The	x
 <eos>	x
+The	x
 lawyer	n
 who	x
 will	x
@@ -6160,10 +5950,9 @@ U.S. solicitor general	x
 during	x
 the	x
 George W. Bush administration	x
-.	x
+<eos>	x
 Clement	x
 's	x
-<eos>	x
 law firm	x
 ,	x
 Bancroft PLLC	x
@@ -6192,9 +5981,8 @@ to	x
 advocating	x
 conservative	j
 legal principles	x
-.	x
-Another	x
 <eos>	x
+Another	x
 firm	n
 that	x
 sponsored	x
@@ -6215,9 +6003,8 @@ law	n
 ,	x
 the	x
 National Federation of Independent Business	x
-.	x
-Another	x
 <eos>	x
+Another	x
 sponsor	n
 was	v
 pharmaceutical	j
@@ -6236,9 +6023,8 @@ outcome	n
 of	x
 the	x
 litigation	n
-.	x
-The	x
 <eos>	x
+The	x
 dinner	n
 was	v
 held	x
@@ -6255,9 +6041,8 @@ conference	n
 over	x
 the	x
 case	n
-.	x
-In	x
 <eos>	x
+In	x
 attendance	n
 was	v
 ,	x
@@ -6278,19 +6063,18 @@ opponent	n
 of	x
 the	x
 healthcare law	n
-.	x
+<eos>	x
 The	x
 featured	x
-<eos>	x
 guests	n
 at	x
 the	x
 dinner	n
-?	x
+<eos>	x
 Scalia	x
 and	x
 Thomas	x
-.	x
+<eos>	x
 It	x
 's	v
 nothing	r
@@ -6298,7 +6082,6 @@ new	j
 :	x
 The	x
 two	x
-<eos>	x
 justices	n
 have	x
 been	v
@@ -6307,11 +6090,10 @@ Federalist Society	x
 events	n
 for	x
 years	n
-.	x
+<eos>	x
 And	x
 it	x
 's	v
-<eos>	x
 nothing	n
 that	x
 runs	x
@@ -6319,9 +6101,8 @@ afoul	r
 of	x
 ethics	n
 rules	n
-.	x
-In	x
 <eos>	x
+In	x
 fact	n
 ,	x
 justices	n
@@ -6338,7 +6119,7 @@ of	x
 lower	j
 federal	j
 justices	n
-.	x
+<eos>	x
 If	x
 they	x
 were	v
@@ -6347,7 +6128,6 @@ they	x
 arguably	r
 fell	x
 under	x
-<eos>	x
 code	n
 's	x
 Canon	x
@@ -6389,13 +6169,12 @@ of	x
 such	x
 an	x
 event	n
-.	x
+<eos>	x
 ''	x
 Nevertheless	r
 ,	x
 the	x
 sheer	j
-<eos>	x
 proximity	n
 of	x
 Scalia	x
@@ -6428,11 +6207,10 @@ to	x
 alarm	x
 ethics-in-government	n
 activists	n
-.	x
+<eos>	x
 ``	x
 This	x
 stunning	j
-<eos>	x
 breach	n
 of	x
 ethics	n
@@ -6469,10 +6247,9 @@ the	x
 president	n
 of	x
 Common Cause	x
-.	x
+<eos>	x
 ``	x
 The	x
-<eos>	x
 justices	n
 were	v
 wining	x
@@ -6491,10 +6268,9 @@ cases	n
 before	x
 the	x
 court	n
-.	x
+<eos>	x
 ''	x
 Their	x
-<eos>	x
 appearance	n
 and	x
 assistance	n
@@ -6512,14 +6288,13 @@ impartiality	n
 and	x
 is	v
 unacceptable	j
-.	x
+<eos>	x
 Scalia	x
 and	x
 Thomas	x
 have	x
 shown	x
 little	j
-<eos>	x
 regard	n
 for	x
 critics	n
@@ -6541,11 +6316,10 @@ such	j
 as	x
 the	x
 Federalist Society	x
-.	x
+<eos>	x
 And	x
 Thomas	x
 ''	x
-<eos>	x
 wife	n
 ,	x
 Ginni	x
@@ -6555,10 +6329,9 @@ a	x
 high-profile	j
 conservative	j
 activist	n
-.	x
+<eos>	x
 Moreover	r
 ,	x
-<eos>	x
 conservatives	n
 argue	x
 that	x
@@ -6576,11 +6349,10 @@ not	r
 Scalia	x
 and	x
 Thomas	x
-.	x
+<eos>	x
 Kagan	x
 served	x
 as	x
-<eos>	x
 solicitor general	x
 in	x
 the	x
@@ -6600,9 +6372,8 @@ at	x
 the	x
 trial court	x
 level	n
-.	x
-Her	x
 <eos>	x
+Her	x
 critics	n
 have	x
 pushed	x
@@ -6631,20 +6402,18 @@ to	x
 be	v
 impartial	j
 now	r
-.	x
+<eos>	x
 Kagan	x
 has	x
 given	x
 no	x
-<eos>	x
 indication	n
 she	x
 will	x
 do	x
 so	r
-.	x
-The	x
 <eos>	x
+The	x
 familiarity	n
 of	x
 the	x
@@ -6659,7 +6428,6 @@ Ticos	x
 Of	x
 the	x
 <number>	x
-<eos>	x
 players	n
 called	x
 in	x
@@ -6670,10 +6438,9 @@ passed	x
 <number>	x
 international	j
 games	n
-.	x
+<eos>	x
 On	x
 the	x
-<eos>	x
 side	n
 of	x
 Costa Rica	x
@@ -6686,10 +6453,9 @@ players	n
 reached	x
 <number>	x
 games	n
-.	x
+<eos>	x
 A	x
 minor	j
-<eos>	x
 contrast	n
 to	x
 Costa Rica	x
@@ -6716,10 +6482,9 @@ the	x
 National Stadium	x
 in	x
 San Jose	x
-.	x
+<eos>	x
 While	x
 the	x
-<eos>	x
 Europe	n
 and	x
 world champions	x
@@ -6758,9 +6523,8 @@ has	x
 <number>	x
 international	j
 games	n
-.	x
-That	x
 <eos>	x
+That	x
 number	n
 was	v
 reached	x
@@ -6776,9 +6540,8 @@ Panama	x
 ,	x
 in	x
 Rommel Fernandez	x
-.	x
-Spanish	j
 <eos>	x
+Spanish	j
 football players	x
 playing	x
 in	x
@@ -6816,7 +6579,7 @@ the	x
 European Cups	x
 and	x
 European Champions League	x
-.	x
+<eos>	x
 To	x
 this	x
 is	v
@@ -6824,7 +6587,6 @@ added	x
 the	x
 Spanish	j
 Fury	n
-<eos>	x
 experience	n
 in	x
 complicated	j
@@ -6833,10 +6595,9 @@ for	x
 Euro Cup	x
 and	x
 World Cup	x
-.	x
+<eos>	x
 The	x
 Ticos	x
-<eos>	x
 players	n
 ,	x
 however	r
@@ -6865,7 +6626,6 @@ We	x
 see	x
 that	x
 the	x
-<eos>	x
 peak	n
 of	x
 the	x
@@ -6902,11 +6662,10 @@ with	x
 <number>	x
 international	j
 matches	n
-.	x
+<eos>	x
 Casillas	x
 will	x
 play	x
-<eos>	x
 today	n
 against	x
 the	x
@@ -6923,7 +6682,6 @@ international	j
 matches	n
 for	x
 Spain	x
-.	x
 <eos>	x
 Xavi Hernandez	x
 ,	x
@@ -6935,14 +6693,13 @@ Barcelona	x
 has	x
 <number>	x
 matches	n
-.	x
+<eos>	x
 Casillas	x
 and	x
 Xavi	x
 were	v
 recognized	x
 last	j
-<eos>	x
 week	n
 by	x
 UEFA	x
@@ -6966,12 +6723,11 @@ striker	n
 Raul Gonzalez	x
 with	x
 <number>	x
-.	x
+<eos>	x
 Almost	r
 near	x
 the	x
 centennial	j
-<eos>	x
 number	n
 is	v
 Carles Puyol	x
@@ -6979,7 +6735,6 @@ Carles Puyol	x
 with	x
 <number>	x
 games	n
-.	x
 <eos>	x
 Xabi Alonso	x
 follows	x
@@ -7015,11 +6770,10 @@ David Silva	x
 ,	x
 with	x
 <number>	x
-.	x
+<eos>	x
 On	x
 Costa	j
 Rican	j
-<eos>	x
 side	n
 ,	x
 and	x
@@ -7042,7 +6796,7 @@ Bryan Ruiz	x
 ,	x
 with	x
 <number>	x
-.	x
+<eos>	x
 After	x
 this	x
 ,	x
@@ -7051,7 +6805,6 @@ five	x
 exceeded	x
 the	x
 <number>	x
-<eos>	x
 games	n
 :	x
 Keilor	x
@@ -7074,14 +6827,13 @@ and	x
 Jose Luis Lopez	x
 with	x
 <number>	x
-.	x
+<eos>	x
 The	x
 least	j
-.	x
+<eos>	x
 More	j
 than	x
 <number>	x
-<eos>	x
 matches	n
 in	x
 Spain	x
@@ -7111,11 +6863,10 @@ Raul Albiol	x
 (	x
 <number>	x
 )	x
-.	x
+<eos>	x
 On	x
 the	x
 national	j
-<eos>	x
 side	n
 ,	x
 with	x
@@ -7141,9 +6892,8 @@ and	x
 Roy Myrie	x
 with	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 rest	n
 does	x
 n't	r
@@ -7151,14 +6901,13 @@ come	x
 near	x
 the	x
 <number>	x
-.	x
+<eos>	x
 While	x
 Nacho	n
 Moreal	j
 has	x
 only	r
 four	x
-<eos>	x
 games	n
 and	x
 Jordi Alba	x
@@ -7178,10 +6927,9 @@ did	x
 not	r
 debut	x
 yet	r
-.	x
+<eos>	x
 The	x
 leading	x
-<eos>	x
 scorer	n
 of	x
 Spain	x
@@ -7198,11 +6946,10 @@ by	x
 Fernando Torres	x
 with	x
 <number>	x
-.	x
+<eos>	x
 For	x
 Costa Rica	x
 ,	x
-<eos>	x
 Bryan Ruiz	x
 is	v
 the	x
@@ -7223,9 +6970,8 @@ than	x
 Roy Myrie	x
 and	x
 Parks	x
-.	x
-Is	v
 <eos>	x
+Is	v
 immigration	n
 a	x
 burden	n
@@ -7235,7 +6981,6 @@ opportunity	n
 for	x
 the	x
 economy	n
-?	x
 <eos>	x
 Immigration	n
 policy	n
@@ -7280,14 +7025,13 @@ country	n
 of	x
 French	j
 human rights	x
-.	x
+<eos>	x
 More	r
 recently	r
 ,	x
 it	x
 is	v
 administrative	j
-<eos>	x
 harassment	n
 of	x
 foreign	j
@@ -7321,7 +7065,7 @@ talent	n
 bricklayers	n
 and	x
 waiters	n
-.	x
+<eos>	x
 ''	x
 But	x
 it	x
@@ -7332,13 +7076,11 @@ analyzed	x
 from	x
 the	x
 economic	j
-<eos>	x
 viewpoint	n
-.	x
+<eos>	x
 There	x
 is	v
 a	x
-<eos>	x
 lot	n
 of	x
 consensus	n
@@ -7351,10 +7093,9 @@ Right	x
 on	x
 this	x
 subject	n
-.	x
+<eos>	x
 On	x
 the	x
-<eos>	x
 Right	x
 ,	x
 the	x
@@ -7408,11 +7149,10 @@ the	x
 world	n
 's	x
 misery	n
-.	x
+<eos>	x
 ''	x
 The	x
 only	j
-<eos>	x
 difference	n
 ,	x
 the	x
@@ -7423,7 +7163,6 @@ In	x
 <number>	x
 ,	x
 the	x
-<eos>	x
 fear	n
 of	x
 invasion	n
@@ -7446,9 +7185,8 @@ and	x
 on	x
 the	x
 Right	x
-.	x
-Both	x
 <eos>	x
+Both	x
 sides	n
 see	x
 immigrants	n
@@ -7463,10 +7201,9 @@ and	x
 on	x
 French	j
 society	n
-.	x
+<eos>	x
 The	x
 only	j
-<eos>	x
 difference	n
 resides	x
 in	x
@@ -7482,10 +7219,9 @@ to	x
 grant	x
 to	x
 immigrants	n
-.	x
+<eos>	x
 In	x
 his	x
-<eos>	x
 program	n
 ,	x
 François Hollande	x
@@ -7505,10 +7241,9 @@ problem	n
 to	x
 be	v
 solved	x
-.	x
+<eos>	x
 ''	x
 This	x
-<eos>	x
 notion	n
 of	x
 immigration	n
@@ -7531,10 +7266,9 @@ is	v
 economically	r
 very	r
 costly	j
-.	x
+<eos>	x
 As	x
 the	x
-<eos>	x
 economists	n
 Ian Goldin	x
 and	x
@@ -7576,7 +7310,7 @@ Princeton University Press	x
 ,	x
 <number>	x
 pp	x
-.	x
+<eos>	x
 )	x
 ,	x
 there	x
@@ -7604,9 +7338,8 @@ countries	n
 which	x
 admit	x
 immigrants	n
-.	x
-Restraining	j
 <eos>	x
+Restraining	j
 immigration	n
 leads	x
 to	x
@@ -7615,7 +7348,6 @@ growth	n
 and	x
 harms	x
 employment	n
-.	x
 <eos>	x
 Fears	n
 about	x
@@ -7647,9 +7379,8 @@ downward	j
 pressure	n
 on	x
 wages	n
-.	x
-But	x
 <eos>	x
+But	x
 experience	n
 shows	x
 that	x
@@ -7681,9 +7412,8 @@ shortage	n
 of	x
 local	j
 labor	n
-.	x
-Unskilled	j
 <eos>	x
+Unskilled	j
 immigrants	n
 work	x
 in	x
@@ -7714,17 +7444,15 @@ to	x
 offers	n
 of	x
 employment	n
-.	x
+<eos>	x
 A	x
 positive	j
-<eos>	x
 effect	n
 on	x
 wages	n
 In	x
 the	x
 same	j
-<eos>	x
 way	n
 as	x
 a	x
@@ -7768,14 +7496,13 @@ the	x
 pay	n
 of	x
 locals	n
-.	x
+<eos>	x
 Giovanni	x
 Peri	x
 has	x
 calculated	x
 that	x
 a	x
-<eos>	x
 rise	n
 of	x
 <number>	x
@@ -7797,7 +7524,7 @@ in	x
 real	j
 long-term	j
 pay	n
-.	x
+<eos>	x
 And	x
 does	x
 so	r
@@ -7806,7 +7533,6 @@ taking	x
 into	x
 account	n
 the	x
-<eos>	x
 fact	n
 that	x
 the	x
@@ -7852,7 +7578,6 @@ founded	x
 by	x
 immigrants	n
 )	x
-.	x
 <eos>	x
 Migrants	n
 are	v
@@ -7871,9 +7596,8 @@ total	j
 budgets	n
 of	x
 European countries	x
-.	x
-The	n
 <eos>	x
+The	n
 World	x
 Labor	x
 Organisation	x
@@ -7915,7 +7639,6 @@ budgets	n
 during	x
 his	x
 lifetime	n
-.	x
 <eos>	x
 Nicolas Sarkozy	x
 wished	x
@@ -7936,12 +7659,11 @@ growth	n
 with	x
 the	x
 teeth	n
-.	x
+<eos>	x
 ''	x
 The	x
 teeth	n
 in	x
-<eos>	x
 question	n
 ,	x
 intended	x
@@ -7956,7 +7678,6 @@ precisely	r
 the	x
 opposite	j
 effect	n
-.	x
 <eos>	x
 Deutsche Bank	x
 pays	x
@@ -7967,7 +7688,6 @@ in	x
 the	x
 USA	x
 Fresh	j
-<eos>	x
 trouble	n
 is	v
 following	x
@@ -7994,11 +7714,10 @@ fine	n
 in	x
 the	x
 USA	x
-.	x
+<eos>	x
 As	r
 if	x
 the	x
-<eos>	x
 problems	n
 at	x
 home	x
@@ -8024,7 +7743,7 @@ catching	x
 up	x
 with	x
 it	x
-.	x
+<eos>	x
 Frankfurt-based	j
 Deutsche Bank	x
 will	x
@@ -8051,9 +7770,8 @@ credit unions	x
 during	x
 the	x
 financial crisis	x
-.	x
-The	x
 <eos>	x
+The	x
 issue	n
 centres	x
 on	x
@@ -8061,9 +7779,8 @@ the	x
 sale	n
 of	x
 mortgage securities	x
-.	x
-The	x
 <eos>	x
+The	x
 National Credit Union Administration	x
 (	x
 NCUA	x
@@ -8091,9 +7808,8 @@ into	x
 buying	x
 the	x
 financial products	x
-.	x
-The	x
 <eos>	x
+The	x
 value	n
 of	x
 the	x
@@ -8109,7 +7825,7 @@ brought	x
 down	x
 the	x
 credit unions	x
-.	x
+<eos>	x
 ``	x
 We	x
 are	v
@@ -8118,7 +7834,6 @@ to	x
 have	x
 resolved	x
 the	x
-<eos>	x
 issue	n
 without	x
 the	x
@@ -8134,9 +7849,8 @@ Deutsche Bank	x
 spokesman	n
 in	x
 New York	x
-.	x
-The	x
 <eos>	x
+The	x
 bank	n
 did	x
 not	r
@@ -8145,13 +7859,12 @@ culpability	n
 in	x
 the	x
 settlement	n
-.	x
+<eos>	x
 The	x
 same	j
 is	v
 true	j
 of	x
-<eos>	x
 Citigroup	x
 ,	x
 which	x
@@ -8161,9 +7874,8 @@ pay	x
 <number>	x
 million	x
 dollars	n
-.	x
-The	x
 <eos>	x
+The	x
 NCUA	x
 chairman	n
 ,	x
@@ -8177,9 +7889,8 @@ of	x
 the	x
 two	x
 banks	n
-.	x
-The	x
 <eos>	x
+The	x
 National Credit Union Administration	x
 (	x
 NCUA	x
@@ -8198,9 +7909,8 @@ to	x
 protect	x
 customer	n
 deposits	n
-.	x
-The	x
 <eos>	x
+The	x
 NCUA	x
 is	v
 fighting	x
@@ -8213,10 +7923,9 @@ run	x
 into	x
 the	x
 billions	n
-.	x
+<eos>	x
 The	x
 current	j
-<eos>	x
 settlements	n
 are	v
 the	x
@@ -8224,9 +7933,8 @@ first	j
 of	x
 their	x
 kind	n
-.	x
-The	x
 <eos>	x
+The	x
 regulator	n
 had	x
 also	r
@@ -8245,26 +7953,23 @@ Goldman Sachs	x
 in	x
 the	x
 summer	n
-.	x
+<eos>	x
 The	x
 dubious	j
-<eos>	x
 mortgage securities	x
 are	v
 so-called	j
 mortgage-backed securities	x
-.	x
+<eos>	x
 They	x
 are	v
 underpinned	x
 by	x
-<eos>	x
 home loans	x
-.	x
+<eos>	x
 This	x
 sealed	x
 the	x
-<eos>	x
 fate	n
 of	x
 a	x
@@ -8279,9 +7984,8 @@ property bubble	x
 exploded	x
 in	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 US	x
 investment bank	n
 ,	x
@@ -8299,9 +8003,8 @@ of	x
 the	x
 financial	j
 crisis	n
-.	x
-The	x
 <eos>	x
+The	x
 banks	n
 battling	x
 against	x
@@ -8314,7 +8017,6 @@ USA	x
 several	j
 years	n
 later	r
-.	x
 <eos>	x
 Investors	n
 and	x
@@ -8332,9 +8034,8 @@ or	x
 to	x
 punish	x
 misconduct	n
-.	x
-The	x
 <eos>	x
+The	x
 Federal Housing Finance Agency	x
 (	x
 FHFA	x
@@ -8347,13 +8048,12 @@ largest	j
 wave	n
 of	x
 claims	n
-.	x
+<eos>	x
 It	x
 accuses	x
 <number>	x
 major	j
 international	j
-<eos>	x
 banks	n
 of	x
 having	x
@@ -8373,7 +8073,6 @@ around	r
 <number>	x
 billion	x
 dollars	n
-.	x
 <eos>	x
 Deutsche Bank	x
 also	r
@@ -8397,9 +8096,8 @@ from	x
 <number>	x
 to	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 regulator	n
 is	v
 demanding	x
@@ -8423,7 +8121,6 @@ specified	x
 the	x
 exact	j
 sum	n
-.	x
 <eos>	x
 Deutsche Bank	x
 has	x
@@ -8442,4 +8139,4 @@ fend	x
 off	x
 the	x
 claims	n
-.	x
+<eos>	x

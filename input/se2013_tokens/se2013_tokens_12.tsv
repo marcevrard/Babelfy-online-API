@@ -1,3 +1,4 @@
+Is	v
 immigration	n
 a	x
 burden	n
@@ -7,7 +8,6 @@ opportunity	n
 for	x
 the	x
 economy	n
-?	x
 <eos>	x
 Immigration	n
 policy	n
@@ -52,14 +52,13 @@ country	n
 of	x
 French	j
 human rights	x
-.	x
+<eos>	x
 More	r
 recently	r
 ,	x
 it	x
 is	v
 administrative	j
-<eos>	x
 harassment	n
 of	x
 foreign	j
@@ -93,7 +92,7 @@ talent	n
 bricklayers	n
 and	x
 waiters	n
-.	x
+<eos>	x
 ''	x
 But	x
 it	x
@@ -104,13 +103,11 @@ analyzed	x
 from	x
 the	x
 economic	j
-<eos>	x
 viewpoint	n
-.	x
+<eos>	x
 There	x
 is	v
 a	x
-<eos>	x
 lot	n
 of	x
 consensus	n
@@ -123,10 +120,9 @@ Right	x
 on	x
 this	x
 subject	n
-.	x
+<eos>	x
 On	x
 the	x
-<eos>	x
 Right	x
 ,	x
 the	x
@@ -180,11 +176,10 @@ the	x
 world	n
 's	x
 misery	n
-.	x
+<eos>	x
 ''	x
 The	x
 only	j
-<eos>	x
 difference	n
 ,	x
 the	x
@@ -195,7 +190,6 @@ In	x
 <number>	x
 ,	x
 the	x
-<eos>	x
 fear	n
 of	x
 invasion	n
@@ -218,9 +212,8 @@ and	x
 on	x
 the	x
 Right	x
-.	x
-Both	x
 <eos>	x
+Both	x
 sides	n
 see	x
 immigrants	n
@@ -235,10 +228,9 @@ and	x
 on	x
 French	j
 society	n
-.	x
+<eos>	x
 The	x
 only	j
-<eos>	x
 difference	n
 resides	x
 in	x
@@ -254,10 +246,9 @@ to	x
 grant	x
 to	x
 immigrants	n
-.	x
+<eos>	x
 In	x
 his	x
-<eos>	x
 program	n
 ,	x
 François Hollande	x
@@ -277,10 +268,9 @@ problem	n
 to	x
 be	v
 solved	x
-.	x
+<eos>	x
 ''	x
 This	x
-<eos>	x
 notion	n
 of	x
 immigration	n
@@ -303,10 +293,9 @@ is	v
 economically	r
 very	r
 costly	j
-.	x
+<eos>	x
 As	x
 the	x
-<eos>	x
 economists	n
 Ian Goldin	x
 and	x
@@ -348,7 +337,7 @@ Princeton University Press	x
 ,	x
 <number>	x
 pp	x
-.	x
+<eos>	x
 )	x
 ,	x
 there	x
@@ -376,9 +365,8 @@ countries	n
 which	x
 admit	x
 immigrants	n
-.	x
-Restraining	j
 <eos>	x
+Restraining	j
 immigration	n
 leads	x
 to	x
@@ -387,7 +375,6 @@ growth	n
 and	x
 harms	x
 employment	n
-.	x
 <eos>	x
 Fears	n
 about	x
@@ -419,9 +406,8 @@ downward	j
 pressure	n
 on	x
 wages	n
-.	x
-But	x
 <eos>	x
+But	x
 experience	n
 shows	x
 that	x
@@ -453,9 +439,8 @@ shortage	n
 of	x
 local	j
 labor	n
-.	x
-Unskilled	j
 <eos>	x
+Unskilled	j
 immigrants	n
 work	x
 in	x
@@ -486,17 +471,15 @@ to	x
 offers	n
 of	x
 employment	n
-.	x
+<eos>	x
 A	x
 positive	j
-<eos>	x
 effect	n
 on	x
 wages	n
 In	x
 the	x
 same	j
-<eos>	x
 way	n
 as	x
 a	x
@@ -540,14 +523,13 @@ the	x
 pay	n
 of	x
 locals	n
-.	x
+<eos>	x
 Giovanni	x
 Peri	x
 has	x
 calculated	x
 that	x
 a	x
-<eos>	x
 rise	n
 of	x
 <number>	x
@@ -569,7 +551,7 @@ in	x
 real	j
 long-term	j
 pay	n
-.	x
+<eos>	x
 And	x
 does	x
 so	r
@@ -578,7 +560,6 @@ taking	x
 into	x
 account	n
 the	x
-<eos>	x
 fact	n
 that	x
 the	x
@@ -624,7 +605,6 @@ founded	x
 by	x
 immigrants	n
 )	x
-.	x
 <eos>	x
 Migrants	n
 are	v
@@ -643,9 +623,8 @@ total	j
 budgets	n
 of	x
 European countries	x
-.	x
-The	n
 <eos>	x
+The	n
 World	x
 Labor	x
 Organisation	x
@@ -687,7 +666,6 @@ budgets	n
 during	x
 his	x
 lifetime	n
-.	x
 <eos>	x
 Nicolas Sarkozy	x
 wished	x
@@ -708,12 +686,11 @@ growth	n
 with	x
 the	x
 teeth	n
-.	x
+<eos>	x
 ''	x
 The	x
 teeth	n
 in	x
-<eos>	x
 question	n
 ,	x
 intended	x
@@ -728,4 +705,4 @@ precisely	r
 the	x
 opposite	j
 effect	n
-.	x
+<eos>	x

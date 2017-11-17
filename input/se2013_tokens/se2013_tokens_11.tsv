@@ -1,3 +1,4 @@
+The	x
 familiarity	n
 of	x
 the	x
@@ -12,7 +13,6 @@ Ticos	x
 Of	x
 the	x
 <number>	x
-<eos>	x
 players	n
 called	x
 in	x
@@ -23,10 +23,9 @@ passed	x
 <number>	x
 international	j
 games	n
-.	x
+<eos>	x
 On	x
 the	x
-<eos>	x
 side	n
 of	x
 Costa Rica	x
@@ -39,10 +38,9 @@ players	n
 reached	x
 <number>	x
 games	n
-.	x
+<eos>	x
 A	x
 minor	j
-<eos>	x
 contrast	n
 to	x
 Costa Rica	x
@@ -69,10 +67,9 @@ the	x
 National Stadium	x
 in	x
 San Jose	x
-.	x
+<eos>	x
 While	x
 the	x
-<eos>	x
 Europe	n
 and	x
 world champions	x
@@ -111,9 +108,8 @@ has	x
 <number>	x
 international	j
 games	n
-.	x
-That	x
 <eos>	x
+That	x
 number	n
 was	v
 reached	x
@@ -129,9 +125,8 @@ Panama	x
 ,	x
 in	x
 Rommel Fernandez	x
-.	x
-Spanish	j
 <eos>	x
+Spanish	j
 football players	x
 playing	x
 in	x
@@ -169,7 +164,7 @@ the	x
 European Cups	x
 and	x
 European Champions League	x
-.	x
+<eos>	x
 To	x
 this	x
 is	v
@@ -177,7 +172,6 @@ added	x
 the	x
 Spanish	j
 Fury	n
-<eos>	x
 experience	n
 in	x
 complicated	j
@@ -186,10 +180,9 @@ for	x
 Euro Cup	x
 and	x
 World Cup	x
-.	x
+<eos>	x
 The	x
 Ticos	x
-<eos>	x
 players	n
 ,	x
 however	r
@@ -218,7 +211,6 @@ We	x
 see	x
 that	x
 the	x
-<eos>	x
 peak	n
 of	x
 the	x
@@ -255,11 +247,10 @@ with	x
 <number>	x
 international	j
 matches	n
-.	x
+<eos>	x
 Casillas	x
 will	x
 play	x
-<eos>	x
 today	n
 against	x
 the	x
@@ -276,7 +267,6 @@ international	j
 matches	n
 for	x
 Spain	x
-.	x
 <eos>	x
 Xavi Hernandez	x
 ,	x
@@ -288,14 +278,13 @@ Barcelona	x
 has	x
 <number>	x
 matches	n
-.	x
+<eos>	x
 Casillas	x
 and	x
 Xavi	x
 were	v
 recognized	x
 last	j
-<eos>	x
 week	n
 by	x
 UEFA	x
@@ -319,12 +308,11 @@ striker	n
 Raul Gonzalez	x
 with	x
 <number>	x
-.	x
+<eos>	x
 Almost	r
 near	x
 the	x
 centennial	j
-<eos>	x
 number	n
 is	v
 Carles Puyol	x
@@ -332,7 +320,6 @@ Carles Puyol	x
 with	x
 <number>	x
 games	n
-.	x
 <eos>	x
 Xabi Alonso	x
 follows	x
@@ -368,11 +355,10 @@ David Silva	x
 ,	x
 with	x
 <number>	x
-.	x
+<eos>	x
 On	x
 Costa	j
 Rican	j
-<eos>	x
 side	n
 ,	x
 and	x
@@ -395,7 +381,7 @@ Bryan Ruiz	x
 ,	x
 with	x
 <number>	x
-.	x
+<eos>	x
 After	x
 this	x
 ,	x
@@ -404,7 +390,6 @@ five	x
 exceeded	x
 the	x
 <number>	x
-<eos>	x
 games	n
 :	x
 Keilor	x
@@ -427,14 +412,13 @@ and	x
 Jose Luis Lopez	x
 with	x
 <number>	x
-.	x
+<eos>	x
 The	x
 least	j
-.	x
+<eos>	x
 More	j
 than	x
 <number>	x
-<eos>	x
 matches	n
 in	x
 Spain	x
@@ -464,11 +448,10 @@ Raul Albiol	x
 (	x
 <number>	x
 )	x
-.	x
+<eos>	x
 On	x
 the	x
 national	j
-<eos>	x
 side	n
 ,	x
 with	x
@@ -494,9 +477,8 @@ and	x
 Roy Myrie	x
 with	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 rest	n
 does	x
 n't	r
@@ -504,14 +486,13 @@ come	x
 near	x
 the	x
 <number>	x
-.	x
+<eos>	x
 While	x
 Nacho	n
 Moreal	j
 has	x
 only	r
 four	x
-<eos>	x
 games	n
 and	x
 Jordi Alba	x
@@ -531,10 +512,9 @@ did	x
 not	r
 debut	x
 yet	r
-.	x
+<eos>	x
 The	x
 leading	x
-<eos>	x
 scorer	n
 of	x
 Spain	x
@@ -551,11 +531,10 @@ by	x
 Fernando Torres	x
 with	x
 <number>	x
-.	x
+<eos>	x
 For	x
 Costa Rica	x
 ,	x
-<eos>	x
 Bryan Ruiz	x
 is	v
 the	x
@@ -576,5 +555,4 @@ than	x
 Roy Myrie	x
 and	x
 Parks	x
-.	x
-Is	v
+<eos>	x

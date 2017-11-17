@@ -9,7 +9,6 @@ a	x
 strengthening	j
 dollar	n
 The	x
-<eos>	x
 New York Stock Exchange	x
 closed	x
 with	x
@@ -47,11 +46,10 @@ NASDAQ	x
 dropped	x
 <number>	x
 %	n
-.	x
+<eos>	x
 According	x
 to	x
 final	j
-<eos>	x
 closing	n
 figures	n
 ,	x
@@ -84,10 +82,9 @@ to	x
 <number>	x
 <number>	x
 points	n
-.	x
+<eos>	x
 The	x
 wider	j
-<eos>	x
 Standard & Poor	x
 's	x
 <number>	x
@@ -105,11 +102,10 @@ to	x
 <number>	x
 <number>	x
 points	n
-.	x
+<eos>	x
 Frankly	r
 ,	x
 the	x
-<eos>	x
 market	n
 is	v
 very	r
@@ -121,12 +117,11 @@ Blicksilver	x
 of	x
 Marblehead	x
 Asset Management	x
-.	x
+<eos>	x
 It	x
 remains	x
 within	x
 a	x
-<eos>	x
 narrow margin	x
 ;	x
 trading	n
@@ -151,9 +146,8 @@ end	n
 of	x
 the	x
 year	n
-.	x
-The	x
 <eos>	x
+The	x
 trend	n
 was	v
 supported	x
@@ -190,10 +184,9 @@ summarised	x
 Charles Schwab	x
 's	x
 analysts	n
-.	x
+<eos>	x
 In	x
 the	x
-<eos>	x
 United States	x
 ,	x
 retail	j
@@ -219,11 +212,10 @@ far	r
 more	r
 than	x
 predicted	x
-.	x
+<eos>	x
 Moreover	r
 ,	x
 the	x
-<eos>	x
 confidence	n
 of	x
 American	j
@@ -251,9 +243,8 @@ from	x
 Michigan University	x
 's	x
 index	n
-.	x
-The	x
 <eos>	x
+The	x
 indices	n
 have	x
 ,	x
@@ -300,7 +291,6 @@ Owen	x
 Fitzpatrick	x
 from	x
 Deutsche Bank	x
-.	x
 <eos>	x
 Technology	n
 securities	n
@@ -309,13 +299,11 @@ thereby	r
 lost	x
 some	x
 ground	n
-.	x
-The	x
 <eos>	x
+The	x
 bond market	n
 has	x
 fallen	x
-.	x
 <eos>	x
 Treasury	x
 <number>	j
@@ -347,4 +335,4 @@ against	x
 the	x
 previous	j
 evening	n
-.	x
+<eos>	x

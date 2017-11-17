@@ -1,3 +1,7 @@
+Baskonia	x
+gives	x
+away	r
+a	x
 victory	n
 in	x
 Israel	x
@@ -6,7 +10,6 @@ achieved	x
 a	x
 stunning	j
 <number>	x
-<eos>	x
 victory	n
 on	x
 their	x
@@ -57,10 +60,9 @@ top	n
 of	x
 their	x
 group	n
-.	x
+<eos>	x
 The	x
 Vitorian	x
-<eos>	x
 team	n
 knew	x
 to	x
@@ -101,12 +103,11 @@ to	x
 take	x
 the	x
 victory	n
-.	x
+<eos>	x
 Additionally	r
 ,	x
 their	x
 huge	j
-<eos>	x
 success	n
 from	x
 the	x
@@ -126,9 +127,8 @@ with	x
 the	x
 final	j
 triumph	n
-.	x
-The	x
 <eos>	x
+The	x
 game	n
 started	x
 out	x
@@ -148,13 +148,12 @@ scoreboard	n
 from	x
 the	x
 start	n
-.	x
+<eos>	x
 As	x
 Vitora	x
 's	x
 first	j
 four	x
-<eos>	x
 baskets	n
 were	v
 from	x
@@ -176,14 +175,13 @@ net	n
 with	x
 hot	j
 wrists	n
-.	x
+<eos>	x
 English	x
 and	x
 Teletovic	x
 were	v
 the	x
 main	j
-<eos>	x
 scorers	n
 of	x
 the	x
@@ -194,10 +192,9 @@ end	n
 of	x
 the	x
 first period	x
-.	x
+<eos>	x
 The	x
 second	j
-<eos>	x
 quarter	n
 was	v
 more	j
@@ -244,7 +241,7 @@ half-time	n
 (	x
 <number>	x
 )	x
-.	x
+<eos>	x
 Teletovic	x
 had	x
 already	r
@@ -257,7 +254,6 @@ the	x
 best	j
 on	x
 his	x
-<eos>	x
 team	n
 with	x
 <number>	x
@@ -287,10 +283,9 @@ night	n
 for	x
 the	x
 Brazilian	j
-.	x
+<eos>	x
 But	x
 the	x
-<eos>	x
 game	n
 ,	x
 despite	x
@@ -340,14 +335,13 @@ involved	x
 in	x
 the	x
 game	n
-.	x
+<eos>	x
 Eidson	x
 and	x
 Pnini	x
 played	x
 a	x
 decisive	j
-<eos>	x
 role	n
 in	x
 the	x
@@ -359,13 +353,11 @@ return	n
 to	x
 the	x
 light	n
-.	x
-More	j
 <eos>	x
+More	j
 disadvantages	n
 Ivanovic	x
 's	x
-<eos>	x
 players	n
 ,	x
 injured	x
@@ -441,7 +433,7 @@ quarter	n
 (	x
 <number>	x
 )	x
-.	x
+<eos>	x
 The	x
 Alavas	x
 worked	x
@@ -452,7 +444,6 @@ bone	n
 in	x
 the	x
 last	j
-<eos>	x
 period	n
 ,	x
 and	x
@@ -486,7 +477,7 @@ the	x
 first	j
 thirty	x
 minutes	n
-.	x
+<eos>	x
 However	r
 ,	x
 Pnini	x
@@ -497,7 +488,6 @@ the	x
 best	j
 on	x
 their	x
-<eos>	x
 team	n
 ,	x
 did	x
@@ -518,9 +508,8 @@ line	n
 (	x
 <number>	x
 )	x
-.	x
-In	x
 <eos>	x
+In	x
 spite	n
 of	x
 this	x
@@ -569,4 +558,4 @@ time	n
 in	x
 the	x
 season	n
-.	x
+<eos>	x

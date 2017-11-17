@@ -24,8 +24,8 @@ public class ExampleToken {
 
 		// Get input data from file
 		Path currentPath = Paths.get(System.getProperty("user.dir"));
-		String fileName = "tokens_1.tsv";
-		Path file = Paths.get(currentPath.toString(), "input", fileName);
+		String fileName = "se2013_tokens_1.tsv";
+		Path file = Paths.get(currentPath.toString(), "input/se2013_tokens", fileName);
 		Scanner scanner = new Scanner(file);
 
 		List<BabelfyToken> tokenizedInput = new ArrayList<>();

@@ -1,3 +1,8 @@
+Scalia	x
+and	x
+Thomas	x
+dine	x
+with	x
 healthcare	n
 law	n
 challengers	n
@@ -6,7 +11,6 @@ court	n
 takes	x
 case	n
 The	x
-<eos>	x
 day	n
 the	x
 Supreme Court	x
@@ -59,9 +63,8 @@ case	n
 before	x
 the	x
 high court	x
-.	x
-The	x
 <eos>	x
+The	x
 occasion	n
 was	v
 last	j
@@ -82,11 +85,10 @@ the	x
 petitions	n
 for	x
 review	n
-.	x
+<eos>	x
 One	x
 of	x
 the	x
-<eos>	x
 cases	n
 at	x
 issue	n
@@ -119,9 +121,8 @@ for	x
 conservative	j
 activists	n
 nationwide	j
-.	x
-The	x
 <eos>	x
+The	x
 justices	n
 agreed	x
 to	x
@@ -170,9 +171,8 @@ court	n
 decision	n
 is	v
 released	x
-.	x
-The	x
 <eos>	x
+The	x
 lawyer	n
 who	x
 will	x
@@ -202,10 +202,9 @@ U.S. solicitor general	x
 during	x
 the	x
 George W. Bush administration	x
-.	x
+<eos>	x
 Clement	x
 's	x
-<eos>	x
 law firm	x
 ,	x
 Bancroft PLLC	x
@@ -234,9 +233,8 @@ to	x
 advocating	x
 conservative	j
 legal principles	x
-.	x
-Another	x
 <eos>	x
+Another	x
 firm	n
 that	x
 sponsored	x
@@ -257,9 +255,8 @@ law	n
 ,	x
 the	x
 National Federation of Independent Business	x
-.	x
-Another	x
 <eos>	x
+Another	x
 sponsor	n
 was	v
 pharmaceutical	j
@@ -278,9 +275,8 @@ outcome	n
 of	x
 the	x
 litigation	n
-.	x
-The	x
 <eos>	x
+The	x
 dinner	n
 was	v
 held	x
@@ -297,9 +293,8 @@ conference	n
 over	x
 the	x
 case	n
-.	x
-In	x
 <eos>	x
+In	x
 attendance	n
 was	v
 ,	x
@@ -320,19 +315,18 @@ opponent	n
 of	x
 the	x
 healthcare law	n
-.	x
+<eos>	x
 The	x
 featured	x
-<eos>	x
 guests	n
 at	x
 the	x
 dinner	n
-?	x
+<eos>	x
 Scalia	x
 and	x
 Thomas	x
-.	x
+<eos>	x
 It	x
 's	v
 nothing	r
@@ -340,7 +334,6 @@ new	j
 :	x
 The	x
 two	x
-<eos>	x
 justices	n
 have	x
 been	v
@@ -349,11 +342,10 @@ Federalist Society	x
 events	n
 for	x
 years	n
-.	x
+<eos>	x
 And	x
 it	x
 's	v
-<eos>	x
 nothing	n
 that	x
 runs	x
@@ -361,9 +353,8 @@ afoul	r
 of	x
 ethics	n
 rules	n
-.	x
-In	x
 <eos>	x
+In	x
 fact	n
 ,	x
 justices	n
@@ -380,7 +371,7 @@ of	x
 lower	j
 federal	j
 justices	n
-.	x
+<eos>	x
 If	x
 they	x
 were	v
@@ -389,7 +380,6 @@ they	x
 arguably	r
 fell	x
 under	x
-<eos>	x
 code	n
 's	x
 Canon	x
@@ -431,13 +421,12 @@ of	x
 such	x
 an	x
 event	n
-.	x
+<eos>	x
 ''	x
 Nevertheless	r
 ,	x
 the	x
 sheer	j
-<eos>	x
 proximity	n
 of	x
 Scalia	x
@@ -470,11 +459,10 @@ to	x
 alarm	x
 ethics-in-government	n
 activists	n
-.	x
+<eos>	x
 ``	x
 This	x
 stunning	j
-<eos>	x
 breach	n
 of	x
 ethics	n
@@ -511,10 +499,9 @@ the	x
 president	n
 of	x
 Common Cause	x
-.	x
+<eos>	x
 ``	x
 The	x
-<eos>	x
 justices	n
 were	v
 wining	x
@@ -533,10 +520,9 @@ cases	n
 before	x
 the	x
 court	n
-.	x
+<eos>	x
 ''	x
 Their	x
-<eos>	x
 appearance	n
 and	x
 assistance	n
@@ -554,14 +540,13 @@ impartiality	n
 and	x
 is	v
 unacceptable	j
-.	x
+<eos>	x
 Scalia	x
 and	x
 Thomas	x
 have	x
 shown	x
 little	j
-<eos>	x
 regard	n
 for	x
 critics	n
@@ -583,11 +568,10 @@ such	j
 as	x
 the	x
 Federalist Society	x
-.	x
+<eos>	x
 And	x
 Thomas	x
 ''	x
-<eos>	x
 wife	n
 ,	x
 Ginni	x
@@ -597,10 +581,9 @@ a	x
 high-profile	j
 conservative	j
 activist	n
-.	x
+<eos>	x
 Moreover	r
 ,	x
-<eos>	x
 conservatives	n
 argue	x
 that	x
@@ -618,11 +601,10 @@ not	r
 Scalia	x
 and	x
 Thomas	x
-.	x
+<eos>	x
 Kagan	x
 served	x
 as	x
-<eos>	x
 solicitor general	x
 in	x
 the	x
@@ -642,9 +624,8 @@ at	x
 the	x
 trial court	x
 level	n
-.	x
-Her	x
 <eos>	x
+Her	x
 critics	n
 have	x
 pushed	x
@@ -673,16 +654,14 @@ to	x
 be	v
 impartial	j
 now	r
-.	x
+<eos>	x
 Kagan	x
 has	x
 given	x
 no	x
-<eos>	x
 indication	n
 she	x
 will	x
 do	x
 so	r
-.	x
-The	x
+<eos>	x

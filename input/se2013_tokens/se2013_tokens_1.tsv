@@ -7,7 +7,6 @@ reduce	x
 emissions	n
 The	x
 U.N.-sponsored	j
-<eos>	x
 climate	n
 conference	n
 --	x
@@ -52,9 +51,8 @@ in	x
 the	x
 near	j
 term	n
-.	x
-The	x
 <eos>	x
+The	x
 text	n
 ,	x
 which	x
@@ -83,7 +81,7 @@ illuminated	x
 a	x
 path	n
 forward	r
-.	x
+<eos>	x
 But	x
 it	x
 was	v
@@ -91,7 +89,6 @@ seen	x
 as	x
 an	x
 important	j
-<eos>	x
 advance	n
 in	x
 a	x
@@ -114,11 +111,10 @@ in	x
 Copenhagen	x
 next	j
 week	n
-.	x
+<eos>	x
 Forged	x
 by	x
 a	x
-<eos>	x
 U.N.	x
 ad-hoc	j
 working group	x
@@ -147,12 +143,11 @@ short	j
 and	x
 long	j
 term	n
-.	x
+<eos>	x
 And	x
 it	x
 provides	x
 a	x
-<eos>	x
 range	n
 of	x
 options	n
@@ -189,11 +184,10 @@ be	v
 willing	j
 to	x
 tolerate	x
-.	x
+<eos>	x
 It	x
 gives	x
 a	x
-<eos>	x
 lot	n
 of	x
 flexibility	n
@@ -211,7 +205,7 @@ representative	n
 for	x
 the	x
 Sierra Club	x
-.	x
+<eos>	x
 Michael	x
 Zammit	x
 Cutajar	x
@@ -220,7 +214,6 @@ who	x
 drafted	x
 the	x
 six-page	n
-<eos>	x
 document	n
 ,	x
 boiled	x
@@ -248,12 +241,11 @@ as	x
 the	x
 big	j
 picture	n
-.	x
+<eos>	x
 ''	x
 It	x
 shows	x
 the	x
-<eos>	x
 outlines	n
 for	x
 a	x
@@ -295,11 +287,10 @@ by	x
 to	x
 <number>	x
 percent	n
-.	x
+<eos>	x
 Together	r
 ,	x
 the	x
-<eos>	x
 countries	n
 would	x
 cut	x
@@ -311,9 +302,8 @@ and	x
 percent	n
 by	x
 <number>	x
-.	x
-The	x
 <eos>	x
+The	x
 European Union	x
 gave	x
 the	x
@@ -358,10 +348,9 @@ drought	n
 to	x
 avoiding	x
 deforestation	n
-.	x
+<eos>	x
 Still	r
 ,	x
-<eos>	x
 Friday	x
 featured	x
 the	x
@@ -379,7 +368,6 @@ for	x
 the	x
 past	j
 week	n
-.	x
 <eos>	x
 U.S.	x
 special	j
@@ -411,9 +399,8 @@ funded	x
 by	x
 the	x
 developed world	x
-.	x
-The	x
 <eos>	x
+The	x
 move	n
 signaled	x
 that	x
@@ -433,9 +420,8 @@ just	r
 two	x
 years	n
 ago	r
-.	x
-The	x
 <eos>	x
+The	x
 United States	x
 is	v
 not	r
@@ -478,11 +464,10 @@ verified	x
 by	x
 outside	j
 observers	n
-.	x
+<eos>	x
 Stern	x
 made	x
 his	x
-<eos>	x
 comments	n
 an	x
 hour	n
@@ -527,12 +512,11 @@ to	x
 cope	x
 with	x
 global warming	x
-.	x
+<eos>	x
 With	x
 the	x
 future	j
 economic	j
-<eos>	x
 trajectory	n
 of	x
 the	x
@@ -555,10 +539,9 @@ the	x
 industrial world	n
 and	x
 emerging economies	n
-.	x
+<eos>	x
 The	x
 current	j
-<eos>	x
 battle	n
 is	v
 as	r
@@ -602,14 +585,13 @@ to	x
 take	x
 bolder	j
 action	n
-.	x
+<eos>	x
 Ricardo	x
 Ulate	x
 ,	x
 a	x
 Costa	j
 Rican	j
-<eos>	x
 delegate	n
 ,	x
 said	x
@@ -651,12 +633,11 @@ accountable	j
 for	x
 their	x
 actions	n
-.	x
+<eos>	x
 This	x
 is	v
 clearly	r
 a	x
-<eos>	x
 game	n
 where	r
 a	x
@@ -683,11 +664,10 @@ climate change	x
 adviser	n
 for	x
 Conservation International	x
-.	x
+<eos>	x
 Some	x
 of	x
 the	x
-<eos>	x
 countries	n
 most	r
 vulnerable	j
@@ -726,9 +706,8 @@ political	j
 deal	n
 at	x
 best	j
-.	x
-The	x
 <eos>	x
+The	x
 Alliance of Small Island States	x
 ,	x
 which	x
@@ -745,14 +724,13 @@ proposal	n
 early	j
 Friday	x
 morning	n
-.	x
+<eos>	x
 Artur	x
 Runge-Metzger	x
 ,	x
 who	x
 heads	x
 international	j
-<eos>	x
 climate	n
 negotiations	n
 on	x
@@ -796,9 +774,8 @@ as	x
 China	x
 and	x
 India	x
-.	x
-The	x
 <eos>	x
+The	x
 talks	n
 took	x
 on	x
@@ -827,9 +804,8 @@ to	x
 strike	x
 a	x
 deal	n
-.	x
-High-level	j
 <eos>	x
+High-level	j
 officials	n
 such	j
 as	x
@@ -870,13 +846,12 @@ over	x
 the	x
 next	j
 week	n
-.	x
+<eos>	x
 The	x
 sheer	j
 sprawl	n
 of	x
 the	x
-<eos>	x
 gathering	n
 --	x
 where	r
@@ -923,9 +898,8 @@ e-mail	x
 poses	x
 a	x
 challenge	n
-.	x
-The	x
 <eos>	x
+The	x
 intensity	n
 is	v
 only	r
@@ -952,13 +926,12 @@ will	x
 be	v
 in	x
 Copenhagen	x
-.	x
+<eos>	x
 We	x
 're	v
 getting	x
 into	x
 the	x
-<eos>	x
 big leagues	x
 ,	x
 said	x
@@ -970,14 +943,9 @@ global	j
 policy	n
 at	x
 Conservation International	x
-.	x
-The	x
 <eos>	x
+The	x
 heavyweights	n
 are	v
 coming	x
-.	x
-Baskonia	x
-gives	x
-away	r
-a	x
+<eos>	x
