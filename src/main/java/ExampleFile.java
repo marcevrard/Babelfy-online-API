@@ -30,7 +30,7 @@ public class ExampleFile {
 		BabelfyParameters bfyParams = new BabelfyParameters();
 		bfyParams.setAnnotationResource(SemanticAnnotationResource.BN);
 		bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
-		bfyParams.setScoredCandidates(ScoredCandidates.ALL);
+		bfyParams.setScoredCandidates(ScoredCandidates.TOP);
 
 		// Launch Babelfy annotation
 		Babelfy bfy = new Babelfy(bfyParams);
