@@ -6,7 +6,15 @@
     "configurations": [
         {
             "type": "java",
-            "name": "ExampleToken",
+            "name": "Launch",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "${fileBasenameNoExtension}",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "ExToken",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "ExampleToken",
@@ -14,10 +22,10 @@
         },
         {
             "type": "java",
-            "name": "ExampleFile",
+            "name": "ExText",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "ExampleFile",
+            "mainClass": "ExampleText",
             "args": ""
         },
         {

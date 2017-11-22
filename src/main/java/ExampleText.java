@@ -19,8 +19,8 @@ public class ExampleText {
 
         // Get input text from file
         Path currentPath = Paths.get(System.getProperty("user.dir"));
-        String fileName = "se2013_doc1.txt";	// toy_example.txt
-        Path file = Paths.get(currentPath.toString(), "input", fileName);
+        String fileName = "se2013_doc_1.txt";	// toy_example.txt
+        Path file = Paths.get(currentPath.toString(), "input/se2013_texts", fileName);
         Scanner scanner = new Scanner(file);
         scanner.useDelimiter("\\Z");  // \Z = end of the string anchor
         String inputText = scanner.next();
