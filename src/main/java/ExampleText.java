@@ -13,7 +13,7 @@ import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation;
 import it.uniroma1.lcl.jlt.util.Language;
 
 
-public class ExampleFile {
+public class ExampleText {
 
     public static void main(String[] args) throws Exception {
 
