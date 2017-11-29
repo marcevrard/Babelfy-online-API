@@ -6,19 +6,27 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch",
+            "name": "TestInput",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "${fileBasenameNoExtension}",
-            "args": ""
+            "mainClass": "TestInput",
+            "args": "se2007_task7_tokens/test"
         },
+        // {
+        //     "type": "java",
+        //     "name": "Launch",
+        //     "request": "launch",
+        //     "cwd": "${workspaceFolder}",
+        //     "mainClass": "${fileBasenameNoExtension}",
+        //     "args": ""
+        // },
         {
             "type": "java",
             "name": "ExToken",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "ExampleToken",
-            "args": ""
+            "mainClass": "ExampleToken"
+            // "args": "input/se2013_texts/se2013_doc_1.txt"
         },
         {
             "type": "java",
