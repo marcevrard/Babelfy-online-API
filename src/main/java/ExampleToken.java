@@ -1,20 +1,26 @@
-import java.util.List;
-import java.util.ArrayList;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.Files;
-import java.util.Scanner;
-import java.util.Map;
+import java.util.ArrayList;
 import java.util.HashMap;
-import it.uniroma1.lcl.babelfy.core.Babelfy;
-import it.uniroma1.lcl.babelfy.commons.BabelfyToken;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters;
-import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.SemanticAnnotationResource;
-import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.ScoredCandidates;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.MCS;
+import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.ScoredCandidates;
+import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.SemanticAnnotationResource;
+import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.SemanticAnnotationType;
+import it.uniroma1.lcl.babelfy.commons.BabelfyToken;
 import it.uniroma1.lcl.babelfy.commons.PosTag;
 import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation;
+import it.uniroma1.lcl.babelfy.core.Babelfy;
 import it.uniroma1.lcl.jlt.util.Language;
 
 
@@ -22,63 +28,119 @@ public class ExampleToken {
 
     public static void main(String[] args) throws Exception {
 
-        // Get input data from file
-        Path currentPath = Paths.get(System.getProperty("user.dir"));
-        String fileName = "se2013_tokens_1.tsv";
-        Path file = Paths.get(currentPath.toString(), "input/se2013_tokens", fileName);
-        Scanner scanner = new Scanner(file);
-
-        List<BabelfyToken> tokenizedInput = new ArrayList<>();
-
         // Convert POS input to POS objects
+        Map<String, PosTag> posDic = buildPosDic();
+
+        // Setup Babelfy paramteres
+        BabelfyParameters bfyParams = getParams();
+
+        List<Path> filesInFolder = getFiles(args);
+        for (Path inputFile : filesInFolder) {
+
+            // Input tokens to Babelfy
+            List<BabelfyToken> tokenizedInput = getInput(inputFile, posDic);
+
+            // Launch Babelfy annotation
+            Babelfy bfy = new Babelfy(bfyParams);
+            List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN);
+
+            // Write to file
+            Path outputFile = getOutputPath(inputFile);
+            writeResults(bfyAnnotations, outputFile);
+        }
+    }
+
+    public static Map<String, PosTag> buildPosDic() {
         Map<String, PosTag> posDic = new HashMap<String, PosTag>();
         posDic.put("n", PosTag.NOUN);
         posDic.put("v", PosTag.VERB);
         posDic.put("j", PosTag.ADJECTIVE);
         posDic.put("r", PosTag.ADVERB);
         posDic.put("x", PosTag.OTHER);
+        return posDic;
+    }
 
-        // Input tokens to Babelfy
+    public static BabelfyParameters getParams() {
+        BabelfyParameters bfyParams = new BabelfyParameters();
+        bfyParams.setAnnotationResource(SemanticAnnotationResource.WN);
+        bfyParams.setAnnotationType(SemanticAnnotationType.CONCEPTS);
+        bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
+        bfyParams.setScoredCandidates(ScoredCandidates.TOP);
+        return bfyParams;
+    }
+
+    public static void writeResults(List<SemanticAnnotation> bfyAnnotations, Path out_file)
+            throws FileNotFoundException, UnsupportedEncodingException {
+        PrintWriter writer = new PrintWriter(out_file.toString(), "UTF-8");
+
+        // bfyAnnotations is the result of Babelfy.babelfy() call
+        for (SemanticAnnotation annotation : bfyAnnotations) {
+            // splitting the input text using the CharOffsetFragment start and end anchors
+            String output = annotation.getBabelSynsetID()
+                            + "\t" + annotation.getTokenOffsetFragment().getStart()
+                            + "\t" + annotation.getTokenOffsetFragment().getEnd()
+                            + "\t" + annotation.getSource()
+                            + "\t" + annotation.getDBpediaURL();
+            // System.out.println(output);
+            // Print to file
+            writer.println(output);
+        }
+        writer.close();
+    }
+
+    public static List<BabelfyToken> getInput(Path inputFile, Map<String, PosTag> posDic)
+            throws IOException {
+        List<BabelfyToken> tokenizedInput = new ArrayList<>();
+        Scanner scanner = new Scanner(inputFile);
         while (scanner.hasNext()) {
             String line = scanner.nextLine();
             String[] lineParts = line.split("\\t");
             if (lineParts[0].equals("<eos>")) {
                 tokenizedInput.add(BabelfyToken.EOS);
             } else {
-                tokenizedInput.add(new BabelfyToken(lineParts[0], posDic.get(lineParts[1])));
+                tokenizedInput.add(
+                    new BabelfyToken(lineParts[0], posDic.get(lineParts[1])));
             }
         }
         scanner.close();
+        return tokenizedInput;
+    }
 
-        // Setup Babelfy paramteres
-        BabelfyParameters bfyParams = new BabelfyParameters();
-        bfyParams.setAnnotationResource(SemanticAnnotationResource.BN);
-        bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
-        bfyParams.setScoredCandidates(ScoredCandidates.TOP);
-
-        // Launch Babelfy annotation
-        Babelfy bfy = new Babelfy(bfyParams);
-        List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN);
-
-        // Create printer
-        Path out_dir = Paths.get("output");
-        Files.createDirectories(out_dir);
-        String out_fileName = "out_" + fileName;
-        Path out_file = Paths.get(currentPath.toString(), out_dir.toString(), out_fileName);
-        PrintWriter writer = new PrintWriter(out_file.toString(), "UTF-8");
-
-        // bfyAnnotations is the result of Babelfy.babelfy() call
-        for(SemanticAnnotation annotation:bfyAnnotations) {
-            // splitting the input text using the CharOffsetFragment start and end anchors
-            String output = annotation.getBabelSynsetID() + "\t"
-                            + annotation.getTokenOffsetFragment().getStart() + "\t"
-                            + annotation.getTokenOffsetFragment().getEnd() + "\t"
-                            + annotation.getSource() + "\t"
-                            + annotation.getDBpediaURL();
-            // System.out.println(output);
-            // Print to file
-            writer.println(output);
+    public static List<Path> getFiles(String[] args) {
+        String dirName = "se2007_task7_tokens";
+        if (args.length != 0) {
+            dirName = args[0];
         }
-        writer.close();
+        Path currentPath = Paths.get(System.getProperty("user.dir"));
+        Path inputPath = currentPath.resolve("input").resolve(dirName);
+        List<Path> filesInFolder = new ArrayList<>();
+        try {
+            filesInFolder = Files.walk(inputPath)
+                                 .filter(Files::isRegularFile)
+                                 .collect(Collectors.toList());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+        }
+        return filesInFolder;
+    }
+
+    public static Path getOutputPath(Path inputFile) {
+        Path currentPath = Paths.get(System.getProperty("user.dir"));
+        String outputFileName = "out_" + inputFile.getFileName().toString();
+        Path outputPath = currentPath.resolve("output")
+                                     .resolve(inputFile.getParent()
+                                                       .getFileName());
+        Path file = outputPath.resolve(outputFileName);
+        // Create outputPath if does not exist
+        if (Files.notExists(outputPath)) {
+            try {
+                Files.createDirectories(outputPath);
+                System.out.println("Path did not exist, created: " + outputPath.toString());
+            } catch (java.io.IOException e) {
+                System.out.println("createDirectory failed:" + e);
+            }
+        }
+        return file;
     }
 }

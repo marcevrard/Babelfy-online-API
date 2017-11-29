@@ -20,6 +20,9 @@ public class ExampleText {
         // Get input text from file
         Path currentPath = Paths.get(System.getProperty("user.dir"));
         String fileName = "se2013_doc_1.txt";	// toy_example.txt
+        if (args.length != 0) {
+            fileName = args[0];
+        }
         Path file = Paths.get(currentPath.toString(), "input/se2013_texts", fileName);
         Scanner scanner = new Scanner(file);
         scanner.useDelimiter("\\Z");  // \Z = end of the string anchor
@@ -49,6 +52,7 @@ public class ExampleText {
             Integer offsetStart = annotation.getCharOffsetFragment().getStart();
             Integer offsetEnd = annotation.getCharOffsetFragment().getEnd();
             String frag = inputText.substring(offsetStart, offsetEnd + 1);
+
             String output = annotation.getBabelSynsetID() + "\t"
                             + annotation.getTokenOffsetFragment().getStart() + "\t"
                             + annotation.getTokenOffsetFragment().getEnd() + "\t"

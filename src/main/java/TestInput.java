@@ -10,25 +10,30 @@ public class TestInput {
 
     public static void main(String[] args) throws Exception {
 
-        // Get input data from file
-        Path inputFile = getInputPath(args);
-        Path outputFile = getOutputPath(inputFile);
-        // Scanner scanner = new Scanner(file);
-        print(inputFile);
-        print(outputFile);
-        List<Path> filesInFolder = getFiles();
-        for (Path file : filesInFolder) {
-            System.out.println(file);
+        // // Get input data from file
+        // Path inputFile = getInputPath(args);
+        // Path outputFile = getOutputPath(inputFile);
+        // // Scanner scanner = new Scanner(file);
+        // print(inputFile);
+        // print(outputFile);
+        List<Path> filesInFolder = getFiles(args);
+        for (Path inputFile : filesInFolder) {
+            print(inputFile);
+            Path outputFile = getOutputPath(inputFile);
+            print(outputFile);
         }
     }
 
-    public static List<Path> getFiles() {
-        Path inputPath = Paths.get("input/se2007_task7_tokens");
+    public static List<Path> getFiles(String[] args) {
+        String dirName = "se2007_task7_tokens";
+        if (args.length != 0) {
+            dirName = args[0];
+        }
+        Path currentPath = Paths.get(System.getProperty("user.dir"));
+        Path inputPath = currentPath.resolve("input")
+                                    .resolve(dirName);
         List<Path> filesInFolder = new ArrayList<>();
         try {
-			// Files.walk(inputPath)
-            //      .filter(Files::isRegularFile)
-            //      .forEach(System.out::println);
             filesInFolder = Files.walk(inputPath)
                                  .filter(Files::isRegularFile)
                                  .collect(Collectors.toList());
@@ -40,7 +45,7 @@ public class TestInput {
     }
 
     public static void print(Path file) throws Exception {
-        System.out.println(file.getFileName().toString());
+        // System.out.println(file.getFileName().toString());
         System.out.println(file.toString());
         // System.out.println(file.getParent().getFileName().toString());
     }
@@ -60,12 +65,14 @@ public class TestInput {
         Path currentPath = Paths.get(System.getProperty("user.dir"));
         String outputFileName = "out_" + inputFile.getFileName().toString();
         Path outputPath = currentPath.resolve("output")
-                                     .resolve(inputFile.getParent().getFileName());
+                                     .resolve(inputFile.getParent()
+                                                       .getFileName());
         Path file = outputPath.resolve(outputFileName);
         // Create outputPath if does not exist
         if (Files.notExists(outputPath)) {
             try {
-                Files.createDirectory(outputPath);
+                Files.createDirectories(outputPath);
+                System.out.println("Path did not exist, created: " + outputPath.toString());
             } catch (java.io.IOException e) {
                 System.out.println("createDirectory failed:" + e);
             }

@@ -4,14 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "java",
-            "name": "TestInput",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "TestInput",
-            "args": "se2007_task7_tokens/test"
-        },
         // {
         //     "type": "java",
         //     "name": "Launch",
@@ -25,8 +17,8 @@
             "name": "ExToken",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "ExampleToken"
-            // "args": "input/se2013_texts/se2013_doc_1.txt"
+            "mainClass": "ExampleToken",
+            "args": "se2007_task7_tokens"
         },
         {
             "type": "java",
@@ -35,6 +27,15 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "ExampleText",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "TestInput",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "TestInput",
+            "args": "se2007_task7_tokens"
+            // "args": "se2013_tokens"
         },
         {
             "type": "java",
