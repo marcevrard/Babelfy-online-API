@@ -32,7 +32,8 @@ public class ExampleToken {
         Map<String, PosTag> posDic = buildPosDic();
 
         // Setup Babelfy paramteres
-        BabelfyParameters bfyParams = getParams();
+        // BabelfyParameters bfyParams = getParams("BN", "ALL");
+        BabelfyParameters bfyParams = getParams("WN", "CONCEPTS");
 
         List<Path> filesInFolder = getFiles(args);
         for (Path inputFile : filesInFolder) {
@@ -61,17 +62,24 @@ public class ExampleToken {
         return posDic;
     }
 
-    public static BabelfyParameters getParams() {
+    public static BabelfyParameters getParams(String annRes, String annType) {
         BabelfyParameters bfyParams = new BabelfyParameters();
-        bfyParams.setAnnotationResource(SemanticAnnotationResource.WN);
-        bfyParams.setAnnotationType(SemanticAnnotationType.CONCEPTS);
+        if (annRes == "WN") {
+            bfyParams.setAnnotationResource(SemanticAnnotationResource.WN);
+        } else {
+            bfyParams.setAnnotationResource(SemanticAnnotationResource.BN);
+        }
+        if (annRes == "CONCEPTS") {
+            bfyParams.setAnnotationType(SemanticAnnotationType.CONCEPTS);
+        }
         bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
         bfyParams.setScoredCandidates(ScoredCandidates.TOP);
+
         return bfyParams;
     }
 
     public static Integer getWordsLength(List<BabelfyToken> tokenizedInput,
-                                               Integer offsetStart, Integer offsetEnd) {
+                                         Integer offsetStart, Integer offsetEnd) {
         // splitting the input text using the CharOffsetFragment start and end anchors
 
         List<BabelfyToken> token = tokenizedInput.subList(offsetStart, offsetEnd + 1);
