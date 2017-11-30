@@ -43,10 +43,11 @@ public class ExampleToken {
             // Launch Babelfy annotation
             Babelfy bfy = new Babelfy(bfyParams);
             List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN);
+            // System.out.println(tokenizedInput);
 
             // Write to file
             Path outputFile = getOutputPath(inputFile);
-            writeResults(bfyAnnotations, outputFile);
+            writeResults(bfyAnnotations, tokenizedInput, outputFile);
         }
     }
 
@@ -69,19 +70,40 @@ public class ExampleToken {
         return bfyParams;
     }
 
-    public static void writeResults(List<SemanticAnnotation> bfyAnnotations, Path out_file)
+    public static Integer getWordsLength(List<BabelfyToken> tokenizedInput,
+                                               Integer offsetStart, Integer offsetEnd) {
+        // splitting the input text using the CharOffsetFragment start and end anchors
+
+        List<BabelfyToken> token = tokenizedInput.subList(offsetStart, offsetEnd + 1);
+        Integer wordLength = token.get(0).getWord().length();
+        return wordLength;
+    }
+
+    public static void writeResults(List<SemanticAnnotation> bfyAnnotations,
+                                    List<BabelfyToken> tokenizedInput, Path out_file)
             throws FileNotFoundException, UnsupportedEncodingException {
         PrintWriter writer = new PrintWriter(out_file.toString(), "UTF-8");
 
+        Integer offsetCharStart = 0;
+
         // bfyAnnotations is the result of Babelfy.babelfy() call
         for (SemanticAnnotation annotation : bfyAnnotations) {
-            // splitting the input text using the CharOffsetFragment start and end anchors
+            Integer offsetTokenStart = annotation.getTokenOffsetFragment().getStart();
+            Integer offsetTokenEnd = annotation.getTokenOffsetFragment().getEnd();
+            Integer wordLength = getWordsLength(tokenizedInput,
+                                                offsetTokenStart, offsetTokenEnd);
+            Integer offsetCharEnd = offsetCharStart + wordLength - 1;
+
             String output = annotation.getBabelSynsetID()
-                            + "\t" + annotation.getTokenOffsetFragment().getStart()
-                            + "\t" + annotation.getTokenOffsetFragment().getEnd()
+                            + "\t" + offsetTokenStart
+                            + "\t" + offsetTokenEnd
+                            + "\t" + offsetCharStart
+                            + "\t" + offsetCharEnd
                             + "\t" + annotation.getSource()
+                            + "\t" + annotation.getGlobalScore()
                             + "\t" + annotation.getDBpediaURL();
-            // System.out.println(output);
+
+            offsetCharStart = offsetCharEnd + 2;
             // Print to file
             writer.println(output);
         }
