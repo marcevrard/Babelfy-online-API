@@ -6,7 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -32,7 +31,7 @@ public class ExampleToken {
         // Convert POS input to POS objects
         Map<String, PosTag> posDic = buildPosDic();
 
-        // Setup Babelfy paramteres
+        // Setup Babelfy parameters
         // BabelfyParameters bfyParams = getParams("BN", "ALL");
         BabelfyParameters bfyParams = getParams("WN", "CONCEPTS");
 
