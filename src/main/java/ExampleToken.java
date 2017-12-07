@@ -56,7 +56,7 @@ public class ExampleToken {
         Map<String, PosTag> posDic = new HashMap<String, PosTag>();
         posDic.put("n", PosTag.NOUN);
         posDic.put("v", PosTag.VERB);
-        posDic.put("j", PosTag.ADJECTIVE);
+        posDic.put("a", PosTag.ADJECTIVE);
         posDic.put("r", PosTag.ADVERB);
         posDic.put("x", PosTag.OTHER);
         return posDic;
