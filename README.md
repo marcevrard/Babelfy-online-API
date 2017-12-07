@@ -1,3 +1,37 @@
+Info related to this forked project
+===================================
+
+(README from the original project below)
+
+## Create the project structure
+
+### Using `gradle`
+
+```
+gradle init --type java-library
+```
+And add:
+```
+dependencies {
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+}
+```
+
+### Or using `maven`*
+
+```
+mvn archetype:generate \
+    -DgroupId=org.babelfy \
+    -DartifactId=Babelfy-online-API \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DinteractiveMode=false
+
+...
+```
+(*incomplete procedure)
+
+*************************************
+
 README - Babelfy API 1.0 (April 2015)
 =====================================
 
@@ -102,35 +136,3 @@ ACKNOWLEDGMENTS
 
 Babelfy and the Babelfy API are an output of the ERC Starting Grant
 MultiJEDI No. 259234.
-
-*************************************
-
-This forked project's related info
-==================================
-
-## Create the project structure
-
-### Using `gradle`
-
-```
-gradle init --type java-library
-```
-And add:
-```
-dependencies {
-    compile fileTree(dir: 'lib', include: ['*.jar'])
-}
-```
-
-### Or using `maven`*
-
-```
-mvn archetype:generate \
-    -DgroupId=org.babelfy \
-    -DartifactId=Babelfy-online-API \
-    -DarchetypeArtifactId=maven-archetype-quickstart \
-    -DinteractiveMode=false
-
-...
-```
-(*incomplete procedure)
