@@ -75,6 +75,9 @@ public class ExampleToken {
         bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
         bfyParams.setScoredCandidates(ScoredCandidates.TOP);
 
+        // Sets the disambiguation threshold (theta)
+        bfyParams.setThreshold(0.8);  // default = 0.7
+
         return bfyParams;
     }
 
