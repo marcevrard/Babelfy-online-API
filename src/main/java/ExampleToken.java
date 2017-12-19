@@ -143,7 +143,7 @@ public class ExampleToken {
     public static List<Path> getFiles(String[] args) {
         String dirName = "se2007_task7_tokens";
         if (args.length != 0) {
-            dirName = args[0];
+            dirName = args[0] + "_tokens";
         }
         Path currentPath = Paths.get(System.getProperty("user.dir"));
         Path inputPath = currentPath.resolve("input").resolve(dirName);

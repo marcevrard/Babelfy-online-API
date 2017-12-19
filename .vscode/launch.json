@@ -18,7 +18,7 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "ExampleToken",
-            "args": "se2007_task7_tokens"
+            "args": "se2007_task7"
         },
         {
             "type": "java",
