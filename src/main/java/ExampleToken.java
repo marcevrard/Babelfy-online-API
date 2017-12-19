@@ -76,7 +76,7 @@ public class ExampleToken {
         bfyParams.setScoredCandidates(ScoredCandidates.TOP);
 
         // Sets the disambiguation threshold (theta)
-        bfyParams.setThreshold(0.8);  // default = 0.7
+        bfyParams.setThreshold(1);  // default = 0.7
 
         return bfyParams;
     }
@@ -128,12 +128,12 @@ public class ExampleToken {
         Scanner scanner = new Scanner(inputFile);
         while (scanner.hasNext()) {
             String line = scanner.nextLine();
-            String[] lineParts = line.split("\\t");
-            if (lineParts[0].equals("<eos>")) {
+            String[] row = line.split("\\t");
+            if (row[0].equals("<eos>")) {
                 tokenizedInput.add(BabelfyToken.EOS);
             } else {
                 tokenizedInput.add(
-                    new BabelfyToken(lineParts[0], posDic.get(lineParts[1])));
+                    new BabelfyToken(row[0], posDic.get(row[1])));
             }
         }
         scanner.close();
