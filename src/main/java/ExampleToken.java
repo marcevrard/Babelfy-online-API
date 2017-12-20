@@ -76,7 +76,7 @@ public class ExampleToken {
         bfyParams.setScoredCandidates(ScoredCandidates.TOP);
 
         // Sets the disambiguation threshold (theta)
-        bfyParams.setThreshold(1);  // default = 0.7
+        bfyParams.setThreshold(0.8);  // default = 0.7
 
         return bfyParams;
     }
@@ -161,7 +161,7 @@ public class ExampleToken {
 
     public static Path getOutputPath(Path inputFile) {
         Path currentPath = Paths.get(System.getProperty("user.dir"));
-        String outputFileName = "out_" + inputFile.getFileName().toString();
+        String outputFileName = inputFile.getFileName().toString();
         Path outputPath = currentPath.resolve("output")
                                      .resolve(inputFile.getParent()
                                                        .getFileName());
