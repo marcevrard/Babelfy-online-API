@@ -46,3 +46,4 @@ config/my.babelfy.var.properties
 .project
 .settings/
 output/
+input/Archives/
