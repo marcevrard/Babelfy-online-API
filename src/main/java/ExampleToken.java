@@ -107,16 +107,14 @@ public class ExampleToken {
                 Integer offsetCharStart = charOffsets.get(offsetTokenStart)[0];
                 Integer offsetCharEnd = charOffsets.get(offsetTokenStart)[1];
 
-                String output = annotation.getBabelSynsetID()
-                                + "\t" + offsetTokenStart
-                                + "\t" + offsetTokenEnd
-                                + "\t" + offsetCharStart
-                                + "\t" + offsetCharEnd
-                                + "\t" + annotation.getSource()
-                                + "\t" + annotation.getGlobalScore()
-                                + "\t" + annotation.getDBpediaURL();
-                // Print to file
-                writer.println(output);
+                writer.println(annotation.getBabelSynsetID()
+                               + "\t" + offsetTokenStart
+                               + "\t" + offsetTokenEnd
+                               + "\t" + offsetCharStart
+                               + "\t" + offsetCharEnd
+                               + "\t" + annotation.getSource()
+                               + "\t" + annotation.getGlobalScore()
+                               + "\t" + annotation.getDBpediaURL());
             }
 		}
     }
@@ -138,22 +136,20 @@ public class ExampleToken {
         return tokenizedInput;
     }
 
-    public static List<Path> getFiles(String[] args) {
+    public static List<Path> getFiles(String[] args)
+            throws IOException {
         String dirName = "se2007_tokens";
         if (args.length != 0) {
             dirName = args[0] + "_tokens";
         }
         Path currentPath = Paths.get(System.getProperty("user.dir"));
         Path inputPath = currentPath.resolve("input").resolve(dirName);
+
         List<Path> filesInFolder = new ArrayList<>();
-        try {
-            filesInFolder = Files.walk(inputPath)
-                                 .filter(Files::isRegularFile)
-                                 .collect(Collectors.toList());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-        }
+        filesInFolder = Files.walk(inputPath)
+                                .filter(Files::isRegularFile)
+                                .collect(Collectors.toList());
+
         return filesInFolder;
     }
 
