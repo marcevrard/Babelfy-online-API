@@ -3,32 +3,47 @@ Info related to this forked project
 
 (README from the original project below)
 
-## Create the project structure
+Create the project structure
+----------------------------
+
+1. Move all `.jar` in `lib/`.
+2. Copy the var.property file in config as shown below and add your key
+
+    cp babelfy.var.properties my.babelfy.var.properties
+
+3. Configure the project using `gradle` or `maven` (or `Eclipse` following the original README below).
 
 ### Using `gradle`
 
-```
-gradle init --type java-library
-```
+    gradle init --type java-library
+
 And add:
-```
-dependencies {
-    compile fileTree(dir: 'lib', include: ['*.jar'])
-}
-```
 
-### Or using `maven`*
+    dependencies {
+        // Babelfy related (Add External JARs)
+        compile fileTree(dir: 'lib', include: ['*.jar'])
+    }
 
-```
-mvn archetype:generate \
-    -DgroupId=org.babelfy \
-    -DartifactId=Babelfy-online-API \
-    -DarchetypeArtifactId=maven-archetype-quickstart \
-    -DinteractiveMode=false
+    // Add application plugin to run from command line (https://stackoverflow.com/a/21358586)
+    apply plugin:'application'
+    mainClassName = "ExampleToken"
 
-...
-```
-(*incomplete procedure)
+    // Allow for arg parsing to the class (https://stackoverflow.com/a/29382636)
+    run {
+        if (project.hasProperty("appArgs")) {
+            args Eval.me(appArgs)
+        }
+    }
+
+### Or using `maven` *(incomplete!)*
+
+
+    mvn archetype:generate \
+        -DgroupId=org.babelfy \
+        -DartifactId=Babelfy-online-API \
+        -DarchetypeArtifactId=maven-archetype-quickstart \
+        -DinteractiveMode=false
+    ...
 
 *************************************
 
@@ -42,17 +57,15 @@ CONTENTS
 
 This package contains the following main components:
 
-```
-  babelfy-online-1.0.jar        # Jar of the Babelfy API
-  CHANGELOG			# changelog for the Babelfy API
-  config/			# configuration files
-  docs/				# Javadocs
-  lib/				# 3rd party libraries
-  LICENSE			# Babelfy API's license
-  README			# this file
-  run-babelfydemo.sh		# shell script to test Babelfy in Linux
-  run-babelfydemo.bat		# shell script to test Babelfy in Windows
-```
+    babelfy-online-1.0.jar        # Jar of the Babelfy API
+    CHANGELOG			# changelog for the Babelfy API
+    config/			# configuration files
+    docs/				# Javadocs
+    lib/				# 3rd party libraries
+    LICENSE			# Babelfy API's license
+    README			# this file
+    run-babelfydemo.sh		# shell script to test Babelfy in Linux
+    run-babelfydemo.bat		# shell script to test Babelfy in Windows
 
 REQUIREMENTS
 ------------
@@ -77,16 +90,16 @@ You are now ready to use the API. For testing purposes we provide a shell script
 1. Create your Eclipse project (File -> New -> Java (or Scala) project, give the project a name and press Finish). This creates a new folder with the project name under your Eclipse workspace folder
 2. Copy the `config/` folder from the `Babelfy-online-API-1.0` folder into your `workspace/projectFolder/`
 3. Now we need to include all the `lib/*.jar` and `babelfy-online-1.0.jar` files in the project build classpath:
-   - Select the project from Package Explorer tree view
-   - From the top bar click on Project and then Properties
-   - Once inside the Properties section click on Java build path and select the Libraries tab
-   - From the right menu click on the Add External JARs button
-   - Browse to the downloaded `Babelfy-online-API-1.0` folder, and select all the `lib/*.jar` and `babelfy-online-1.0.jar` files
+   1. Select the project from Package Explorer tree view
+   2. From the top bar click on Project and then Properties
+   3. Once inside the Properties section click on Java build path and select the Libraries tab
+   4. From the right menu click on the Add External JARs button
+   5. Browse to the downloaded `Babelfy-online-API-1.0` folder, and select all the `lib/*.jar` and `babelfy-online-1.0.jar` files
 4. Next we need to Include the config/ folder in the project build classpath:
-   - Select the project from Package Explorer tree view
-   - From the top bar click on File and then Refresh
-   - From the Java build path (see point 3 above) select the Source tab
-   - Once in the Source tab, click on Add Folder from the right sidebar and select the downloaded `config/` folder
+   1. Select the project from Package Explorer tree view
+   2. From the top bar click on File and then Refresh
+   3. From the Java build path (see point 3 above) select the Source tab
+   4. Once in the Source tab, click on Add Folder from the right sidebar and select the downloaded `config/` folder
 5. Happy coding!! ;-)
 
 For more information consult the guide online, http://babelfy.org/guide.

@@ -94,54 +94,52 @@ public class ExampleToken {
     }
 
     public static void writeResults(List<SemanticAnnotation> bfyAnnotations,
-                                    List<BabelfyToken> tokenizedInput, Path out_file)
+                                    List<BabelfyToken> tokenizedInput, Path outputFile)
             throws FileNotFoundException, UnsupportedEncodingException {
-        PrintWriter writer = new PrintWriter(out_file.toString(), "UTF-8");
+		try (PrintWriter writer = new PrintWriter(outputFile.toString(), "UTF-8")) {
+            List<int[]> charOffsets = buildCharOffsets(tokenizedInput);
 
-        List<int[]> charOffsets = buildCharOffsets(tokenizedInput);
+            // bfyAnnotations is the result of Babelfy.babelfy() call
+            for (SemanticAnnotation annotation : bfyAnnotations) {
+                Integer offsetTokenStart = annotation.getTokenOffsetFragment().getStart();
+                Integer offsetTokenEnd = annotation.getTokenOffsetFragment().getEnd();
 
-        // bfyAnnotations is the result of Babelfy.babelfy() call
-        for (SemanticAnnotation annotation : bfyAnnotations) {
-            Integer offsetTokenStart = annotation.getTokenOffsetFragment().getStart();
-            Integer offsetTokenEnd = annotation.getTokenOffsetFragment().getEnd();
+                Integer offsetCharStart = charOffsets.get(offsetTokenStart)[0];
+                Integer offsetCharEnd = charOffsets.get(offsetTokenStart)[1];
 
-            Integer offsetCharStart = charOffsets.get(offsetTokenStart)[0];
-            Integer offsetCharEnd = charOffsets.get(offsetTokenStart)[1];
-
-            String output = annotation.getBabelSynsetID()
-                            + "\t" + offsetTokenStart
-                            + "\t" + offsetTokenEnd
-                            + "\t" + offsetCharStart
-                            + "\t" + offsetCharEnd
-                            + "\t" + annotation.getSource()
-                            + "\t" + annotation.getGlobalScore()
-                            + "\t" + annotation.getDBpediaURL();
-            // Print to file
-            writer.println(output);
-        }
-        writer.close();
+                String output = annotation.getBabelSynsetID()
+                                + "\t" + offsetTokenStart
+                                + "\t" + offsetTokenEnd
+                                + "\t" + offsetCharStart
+                                + "\t" + offsetCharEnd
+                                + "\t" + annotation.getSource()
+                                + "\t" + annotation.getGlobalScore()
+                                + "\t" + annotation.getDBpediaURL();
+                // Print to file
+                writer.println(output);
+            }
+		}
     }
 
     public static List<BabelfyToken> getInput(Path inputFile, Map<String, PosTag> posDic)
             throws IOException {
         List<BabelfyToken> tokenizedInput = new ArrayList<>();
-        Scanner scanner = new Scanner(inputFile);
-        while (scanner.hasNext()) {
-            String line = scanner.nextLine();
-            String[] row = line.split("\\t");
-            if (row[0].equals("<eos>")) {
-                tokenizedInput.add(BabelfyToken.EOS);
-            } else {
-                tokenizedInput.add(
-                    new BabelfyToken(row[0], posDic.get(row[1])));
+		try (Scanner scanner = new Scanner(inputFile)) {
+            while (scanner.hasNext()) {
+                String line = scanner.nextLine();
+                String[] row = line.split("\\t");
+                if (row[0].equals("<eos>")) {
+                    tokenizedInput.add(BabelfyToken.EOS);
+                } else {
+                    tokenizedInput.add(new BabelfyToken(row[0], posDic.get(row[1])));
+                }
             }
-        }
-        scanner.close();
+		}
         return tokenizedInput;
     }
 
     public static List<Path> getFiles(String[] args) {
-        String dirName = "se2007_task7_tokens";
+        String dirName = "se2007_tokens";
         if (args.length != 0) {
             dirName = args[0] + "_tokens";
         }
