@@ -32,8 +32,10 @@ public class ExampleToken {
         Map<String, PosTag> posDic = buildPosDic();
 
         // Setup Babelfy parameters
-        // BabelfyParameters bfyParams = getParams("BN", "ALL");
-        BabelfyParameters bfyParams = getParams("WN", "CONCEPTS");
+        BabelfyParameters bfyParams = getParams("BN", "ALL");
+        // BabelfyParameters bfyParams = getParams("WN", "CONCEPTS");
+
+        printParams(bfyParams);
 
         List<Path> filesInFolder = getFiles(args);
         for (Path inputFile : filesInFolder) {
@@ -69,8 +71,10 @@ public class ExampleToken {
         } else {
             bfyParams.setAnnotationResource(SemanticAnnotationResource.BN);
         }
-        if (annRes == "CONCEPTS") {
+        if (annType == "CONCEPTS") {
             bfyParams.setAnnotationType(SemanticAnnotationType.CONCEPTS);
+        } else {
+            bfyParams.setAnnotationType(SemanticAnnotationType.ALL);
         }
         bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
         bfyParams.setScoredCandidates(ScoredCandidates.TOP);
@@ -79,6 +83,18 @@ public class ExampleToken {
         bfyParams.setThreshold(0.8);  // default = 0.7
 
         return bfyParams;
+    }
+
+    public static void printParams(BabelfyParameters bfyParams) {
+        System.out.println("** Babelfy parameters **");
+        System.out.println("Disambiguation constraint: " + bfyParams.getDisambiguationConstraint());
+        System.out.println("Matching type: " + bfyParams.getMatchingType());
+        System.out.println("MCS type: " + bfyParams.getMCSType());
+        System.out.println("POS tagging options: " + bfyParams.getPoStaggingOptions());
+        System.out.println("Scored candidates: " + bfyParams.getScoredCandidates());
+        System.out.println("Annotation resource: " + bfyParams.getAnnotationResource());
+        System.out.println("Annotation type: " + bfyParams.getAnnotationType());
+        System.out.println("Threshold: " + bfyParams.getThreshold());
     }
 
     public static List<int[]> buildCharOffsets(List<BabelfyToken> tokenizedInput) {
