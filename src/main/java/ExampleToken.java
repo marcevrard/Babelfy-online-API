@@ -32,8 +32,8 @@ public class ExampleToken {
         Map<String, PosTag> posDic = buildPosDic();
 
         // Setup Babelfy parameters
-        BabelfyParameters bfyParams = getParams("BN", "ALL");
-        // BabelfyParameters bfyParams = getParams("WN", "CONCEPTS");
+        // BabelfyParameters bfyParams = getParams("BN", "ALL");
+        BabelfyParameters bfyParams = getParams("WN", "CONCEPTS");
 
         printParams(bfyParams);
 
@@ -68,19 +68,15 @@ public class ExampleToken {
         BabelfyParameters bfyParams = new BabelfyParameters();
         if (annRes == "WN") {
             bfyParams.setAnnotationResource(SemanticAnnotationResource.WN);
-        } else {
-            bfyParams.setAnnotationResource(SemanticAnnotationResource.BN);
         }
         if (annType == "CONCEPTS") {
             bfyParams.setAnnotationType(SemanticAnnotationType.CONCEPTS);
-        } else {
-            bfyParams.setAnnotationType(SemanticAnnotationType.ALL);
         }
         bfyParams.setMCS(MCS.ON_WITH_STOPWORDS);
         bfyParams.setScoredCandidates(ScoredCandidates.TOP);
 
         // Sets the disambiguation threshold (theta)
-        bfyParams.setThreshold(0.8);  // default = 0.7
+        bfyParams.setThreshold(0.3);  // default = 0.7; paper = 0.8 (previous API)
 
         return bfyParams;
     }
